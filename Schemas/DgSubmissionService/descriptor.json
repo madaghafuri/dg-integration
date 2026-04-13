@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "6e8a7f43-e8a1-4711-9ee5-4812e88c3f9c",
     "Name": "DgSubmissionService",
-    "ModifiedOnUtc": "\/Date(1741761278000)\/",
+    "ModifiedOnUtc": "\/Date(1752727362000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "Submission Service"
+    "Caption": "Submission Service",
+    "DependsOn": []
   }
 }

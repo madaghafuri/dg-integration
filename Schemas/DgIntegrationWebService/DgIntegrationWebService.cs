@@ -39,6 +39,10 @@ namespace DgIntegrationAPI.DgIntegrationWebService
     using PortIn_Response = DgCRMIntegration.DgPortIn.Response;
 	using SysSettings = Terrasoft.Core.Configuration.SysSettings;
 	using SolarisCore;
+    using DgIntegration.DgERP;
+    using DgIntegration.DgSendToERP;
+    using System.Data;
+    using Terrasoft.Common;
     using DgIntegration.DgCancelItemDMS;
     using System.Data;
     using Terrasoft.Common;
@@ -96,19 +100,55 @@ namespace DgIntegrationAPI.DgIntegrationWebService
             }
         }
 
-		// [OperationContract]
-		// [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
-		// public GeneralResponse ReleaseTo3PLInit(Guid SubmissionId) {
-		// 	var ReleaseTo3PLService = new ReleaseTo3PL(UserConnection, SubmissionId);
-
-		// 	return ReleaseTo3PLService.Process().GetAwaiter().GetResult();
-		// }
-
         [OperationContract]
         [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
         public GeneralResponse SendToUERP(Guid SubmissionId) {
+			var isERP = SysSettings.GetValue<bool>(UserConnection, "DgIs3PLWithERP", false);
             var SendToUERP = new SendToUERP(UserConnection, SubmissionId);
-            return SendToUERP.Process().GetAwaiter().GetResult();
+			var SendToERP = new SendToERP(UserConnection, SubmissionId);
+
+			var roleList = GetFunctionalRoles(UserConnection);
+			if (roleList.Contains("Admin")) {
+				if (isERP) {
+					return SendToERP.Process().GetAwaiter().GetResult();
+				}
+
+            	return SendToUERP.Process().GetAwaiter().GetResult();
+			} else {
+				if (roleList.Contains("ERP")) {
+					return SendToERP.Process().GetAwaiter().GetResult();
+				}
+
+				return SendToUERP.Process().GetAwaiter().GetResult();
+			}
+        }
+
+		protected virtual List<string> GetFunctionalRoles(UserConnection userConnection)
+        {
+            var roleList = new List<string>();
+            var select = new Select(userConnection)
+                .Column("roleunit", "Id").As("Id")
+                .Column("roleunit", "Name").As("RoleName")
+                .From("SysAdminUnit").As("sau")
+                .Join(JoinType.LeftOuter, "SysUserInRole").As("suir")
+                    .On("suir", "SysUserId").IsEqual("sau", "Id")
+                .Join(JoinType.LeftOuter, "SysAdminUnit").As("roleunit")
+                    .On("suir", "SysRoleId").IsEqual("roleunit", "Id")
+                .Where("sau", "Id").IsEqual(Column.Parameter(userConnection.CurrentUser.Id)) as Select;
+
+            using (DBExecutor dbExecutor = userConnection.EnsureDBConnection()) {
+                using (IDataReader reader = select.ExecuteReader(dbExecutor)) {
+                    while (reader.Read()) {
+                        string role = reader.GetColumnValue<string>("RoleName");
+
+                        if (role == "Admin" || role == "Operation" || role == "ERP") {
+                            roleList.Add(role);
+                        }
+                    }
+                }
+            }
+
+            return roleList;
         }
 
 		[OperationContract]
@@ -134,6 +174,13 @@ namespace DgIntegrationAPI.DgIntegrationWebService
 			}
 
         }
+
+		[OperationContract]
+		[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle =WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
+		public GeneralResponse CancelSalesOrder(Guid SubmissionId) {
+			var service = new CancelOrderService(UserConnection, SubmissionId);
+			return service.Process().GetAwaiter().GetResult();
+		}
 		
         [OperationContract]
         [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]

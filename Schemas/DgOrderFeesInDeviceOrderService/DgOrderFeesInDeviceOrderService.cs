@@ -136,18 +136,12 @@ namespace DgCSGIntegration.DgOrderFees
             try {
                 var res = Response.RetrieveFeesForOrderResponse;
 				var feesRecord = res?.FeesList?.FeesRecord;
-                var feeDetails = GetFeeDetail(Selected.Id);
 				
                 if(res == null || (feesRecord == null || (feesRecord != null && feesRecord.Count < 1))) {
-                    foreach (var fee in feeDetails) {
-                        if (fee.DgFeeName == "Penalty Fee" && fee.DgFeeItemCode == "910017") {
-                            continue;
-                        }
 					new Delete(UserConnection)
 						.From("DgFeeDetail")
 						.Where("DgLineDetailId").IsEqual(Column.Parameter(Selected.Id))
 						.Execute();
-                    }
 					
                     // throw new Exception($"FeesRecord is empty");
 					throw new Exception("");
@@ -191,6 +185,7 @@ namespace DgCSGIntegration.DgOrderFees
 
                 SaveOrderFees(Selected, feesRecord);
 
+                var feeDetails = GetFeeDetail(Selected.Id);
                 var missingFees = feeDetails.Where(item => {
                     return !feesRecord.Any(fee => { 
 						bool isEqual = fee.FeeName == item.DgFeeName

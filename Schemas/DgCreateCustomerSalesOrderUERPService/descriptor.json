@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "f68bbeea-6420-4e38-95a5-0310bf3824b1",
     "Name": "DgCreateCustomerSalesOrderUERPService",
-    "ModifiedOnUtc": "\/Date(1750190055000)\/",
+    "ModifiedOnUtc": "\/Date(1742445740000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "Create Customer Sales Order UERP Service"
+    "Caption": "Create Customer Sales Order UERP Service",
+    "DependsOn": []
   }
 }

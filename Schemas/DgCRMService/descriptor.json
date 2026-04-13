@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "feac18fc-b1b3-4d97-80ba-bbd6c5b06bb7",
     "Name": "DgCRMService",
-    "ModifiedOnUtc": "\/Date(1765352476000)\/",
+    "ModifiedOnUtc": "\/Date(1753935221000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "CRM Service"
+    "Caption": "CRM Service",
+    "DependsOn": []
   }
 }

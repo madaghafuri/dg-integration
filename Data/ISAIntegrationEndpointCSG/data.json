@@ -45,47 +45,6 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "Value": "2c41f666-a66e-4322-b1d7-10f0a1b47cc2"
-        },
-        {
-          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
-          "Value": "POST"
-        },
-        {
-          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
-          "Value": "d83dece1-c880-4840-9385-7f3e5a64fe8d",
-          "DisplayValue": "CSG: Staging"
-        },
-        {
-          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
-          "Value": true
-        },
-        {
-          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
-          "Value": "CheckCustomerEligibility"
-        },
-        {
-          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
-          "Value": "cxf/v1/ord/customerEligibility"
-        }
-      ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "48ee0a63-6899-4ade-94a6-efac35379829"
         },
         {
@@ -407,47 +366,6 @@
         {
           "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
           "Value": "cxf/v1/ord/ValidateCorporatePortIn"
-        }
-      ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "Value": "81fd3fd6-36ba-4330-abdd-b41d3d6ecbf6"
-        },
-        {
-          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
-          "Value": "POST"
-        },
-        {
-          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
-          "Value": "26016129-d59c-4ed5-b02b-dce74ebc838e",
-          "DisplayValue": "CSG: Production"
-        },
-        {
-          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
-          "Value": true
-        },
-        {
-          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
-          "Value": "CheckCustomerEligibility"
-        },
-        {
-          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
-          "Value": ""
-        },
-        {
-          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
-          "Value": "cxf/v1/ord/customerEligibility"
         }
       ]
     },

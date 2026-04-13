@@ -68,6 +68,38 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "5bfc8864-211f-4c2c-911f-679f0e4ea1b1"
+        },
+        {
+          "SchemaColumnUId": "13aad544-ec30-4e76-a373-f0cff3202e24",
+          "Value": "DgEmailNotification_CreateSalesOrderFailed"
+        },
+        {
+          "SchemaColumnUId": "64fadca1-ab7c-4471-9d25-68599acc729b",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "764cd95a-59b3-4060-b17f-2797d5c76aaa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "b2280617-35f9-4006-8634-c557a2e121c2",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "eb971f1a-dd41-4668-99aa-1f2a6b61a1b9",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "f7960a8a-1fd4-41d2-997a-fd78ea60075f",
+          "Value": "MediumText"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "Value": "6aeebb4a-9b5b-4ca6-9c9e-7b3bb4f7a68d"
         },
         {

@@ -26,7 +26,9 @@ namespace DgIntegration.DgCreateCustomerSalesOrderUERPService
         public string State { get; set; }
         public string PostalCode { get; set; }
         public string CustomerProfileClassName { get; set; }
+        public string TIN { get; set; }
 		public string Email { get; set; }
+        public string SST { get; set; }
 		public string BRN { get; set; }
         public string ShipToOrg { get; set; }
         public string InvoiceToOrg { get; set; }
@@ -36,8 +38,6 @@ namespace DgIntegration.DgCreateCustomerSalesOrderUERPService
         public List<BillToCustomer> BillToCustomer { get; set; }
         public List<ShipToCustomer> ShipToCustomer { get; set; }
         public List<SalesOrderLine> SalesOrderLine { get; set; }
-        public string TIN { get; set; }
-        public string SST { get; set; }
     }
 
     public class HeaderEffBCustomer 

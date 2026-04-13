@@ -47,8 +47,6 @@ using DgMasterData;
 using LookupConst = DgMasterData.DgLookupConst;
 using ISAHttpRequest.ISAHttpRequest;
 using Newtonsoft.Json;
-using DgCRMIntegration.DgGetSignedContract.Response;
-using DgCRMIntegration.DgGetSignedContract;
 
 namespace DgCRMIntegration
 {
@@ -569,7 +567,7 @@ namespace DgCRMIntegration
                 }
 
                 customerInfo.customerFlag = "0";
-                
+                customerInfo.customerGroup = "1"; // GETSUBMISSIONBYLINEID > customer_group
                 customerInfo.firstName = Line.CustomerName;
                 customerInfo.idType = Line.IDType?.Code;
                 customerInfo.idNumber = Line.IDNo;
@@ -608,11 +606,6 @@ namespace DgCRMIntegration
                 customerInfo.customerId = Line.CustomerID;
                 subscriberInfo.customerId = Line.CustomerID;
             }
-
-            // CI => "5" => "0", Corporate => "6" => "1"
-            customerInfo.customerGroup = Line.SubscriberType?.Code == "5"
-                ? "0"
-                : "1";
 
             var accountInfo = new AccountValue();
             accountInfo.accountName = Line.CustomerName;
@@ -923,41 +916,6 @@ namespace DgCRMIntegration
 		} 
 			
 		#endregion
-
-        public async Task<List<SignedContractValue>> GetSignedContractBySubscriber(string SubscriberId)
-        {
-            if(string.IsNullOrEmpty(SubscriberId)) {
-                throw new Exception("MSISDN cannot be null or empty");
-            }
-
-			var service = new GetSignedContractService(UserConnection);
-            try {
-                await service.SetParam(SubscriberId).Request();
-                if(!service.IsSuccessResponse()) {
-                    string error = service.GetErrorResponse();
-                    if(!string.IsNullOrEmpty(error)) {
-                        throw new Exception(error);
-                    }
-
-                    return null;
-                }   
-            } catch (Exception) {
-                throw;
-            } finally {
-                if(this.isACDCLog) {
-                    LogHelper.LogACDCTracking(
-                        UserConnection: UserConnection, 
-                        Log: service.GetLog(),
-                        TransactionType: this.transactionType,
-                        MSISDN: string.Empty,
-                        Remarks: service.GetErrorResponse(),
-                        ResultOperationReply: service.GetOperationReply()
-                    );
-                }
-            }
-
-            return service.GetResult();
-        }
 			
 		#region GetUsingOffers
 		

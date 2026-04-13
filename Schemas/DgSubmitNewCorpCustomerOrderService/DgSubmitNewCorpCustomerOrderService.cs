@@ -640,7 +640,7 @@ namespace DgIntegration.DgSubmitNewCorpCustomerOrderService
                 "DgCRMGroup.DgDealer.DgDealerName",
                 "DgCRMGroup.DgDealer.DgDealerHandphone",
                 "DgCRMGroup.DgDealer.DgDealerEmail",
-
+                
                 "DgCRMGroup.DgAdministrationName1",
                 "DgCRMGroup.DgMobilePhone1",
                 "DgCRMGroup.DgAdministrationEmail1",
@@ -703,9 +703,9 @@ namespace DgIntegration.DgSubmitNewCorpCustomerOrderService
                 "DgCRMGroup.DgFeeAmount",
                 "DgCRMGroup.DgOriginalFeeAmount",
                 "DgCRMGroup.DgPaymentType",
-                "DgCRMGroup.DgOFSCode",
                 "DgCRMGroup.DgTINNumber",
-                "DgCRMGroup.DgSST"                
+                "DgCRMGroup.DgSST",
+                "DgCRMGroup.DgOFSCode"                
             };
         }
 

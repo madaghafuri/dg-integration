@@ -292,6 +292,7 @@ namespace DgIntegration.DgSubmitNewCorpCustomerOrderService.Request
 	{
 		[XmlElement(Namespace="http://digi.com.my/")]
 		public NewAccount NewAccount { get; set; }
+
 	}
 
 	[XmlRoot(Namespace="http://digi.com.my/")]
