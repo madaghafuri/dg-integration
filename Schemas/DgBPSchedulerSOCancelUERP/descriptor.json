@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c890a5f8-8419-4e13-b301-e3fad7107236",
+    "Name": "DgBPSchedulerSOCancelUERP",
+    "ModifiedOnUtc": "\/Date(1719488104000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Scheduler] SO Cancel UERP",
+    "DependsOn": []
+  }
+}

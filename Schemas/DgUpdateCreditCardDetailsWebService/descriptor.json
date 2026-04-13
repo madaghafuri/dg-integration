@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "aba42f1d-5aae-4381-af77-6f7edf661a68",
+    "Name": "DgUpdateCreditCardDetailsWebService",
+    "ModifiedOnUtc": "\/Date(1721288721000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Credit Card Details Web Service",
+    "DependsOn": []
+  }
+}

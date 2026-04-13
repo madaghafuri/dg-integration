@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8a9ce524-30ed-4b85-bcc2-8b8c0b09bee0",
+    "Name": "DgSubmissionWebService",
+    "ModifiedOnUtc": "\/Date(1726035326000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Submission Web Service",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="AddVPNGroupMember: Queue Detail" />
+			<Item Name="Columns.DgIsFail.Caption" Value="Is Fail" />
+			<Item Name="Columns.DgIsProcess.Caption" Value="Is Process" />
+			<Item Name="Columns.DgLineDetail.Caption" Value="Line Detail" />
+			<Item Name="Columns.DgQueue.Caption" Value="Queue" />
+		</Items>
+	</Group>
+</Resources>

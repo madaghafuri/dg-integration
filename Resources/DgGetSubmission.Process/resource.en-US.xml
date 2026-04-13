@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.StartEvent1.Caption" Value="Start" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Insert Submission" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Number of completed instances" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Input record collection" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#Get Account .Value#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Name.Caption" Value="Name" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Name.DisplayValue" Value="[#Get Account .Value:Name#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Output record collection" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Name.Caption" Value="Name" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Number of terminated instances" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Total number of instances" />
+			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End" />
+			<Item Name="BaseElements.WebService1.Caption" Value="Authentication" />
+			<Item Name="BaseElements.WebService1.Parameters.DgASPXAUTH_Out.Caption" Value=".ASPXAUTH" />
+			<Item Name="BaseElements.WebService1.Parameters.DgBPMCSRF_Out.Caption" Value="BPMCSRF" />
+			<Item Name="BaseElements.WebService1.Parameters.DgBPMLOADER_Out.Caption" Value="BPMLOADER" />
+			<Item Name="BaseElements.WebService1.Parameters.DgCode_Out.Caption" Value="Code" />
+			<Item Name="BaseElements.WebService1.Parameters.DgException_Out.Caption" Value="Exception" />
+			<Item Name="BaseElements.WebService1.Parameters.DgMessage_Out.Caption" Value="Message" />
+			<Item Name="BaseElements.WebService1.Parameters.DgPCUrl_Out.Caption" Value="PasswordChangeUrl" />
+			<Item Name="BaseElements.WebService1.Parameters.DgRUrl_Out.Caption" Value="RedirectUrl" />
+			<Item Name="BaseElements.WebService1.Parameters.DgSsoSessionId_Out.Caption" Value="SsoSessionId" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserName_In.Caption" Value="UserName - Input" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserName_In.DisplayValue" Value="Supervisor" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserName_In.Value" Value="Supervisor" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserName_Out.Caption" Value="UserName - Output" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserPassword_In.Caption" Value="UserPassword" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserPassword_In.DisplayValue" Value="Digi@2525" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUserPassword_In.Value" Value="Digi@2525" />
+			<Item Name="BaseElements.WebService1.Parameters.DgUType_Out.Caption" Value="UserType" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService2.Caption" Value="Get Account " />
+			<Item Name="BaseElements.WebService2.Parameters.DgAccept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService2.Parameters.DgASPXAUTH_In.Caption" Value=".ASPXAUTH" />
+			<Item Name="BaseElements.WebService2.Parameters.DgASPXAUTH_In.DisplayValue" Value="[#Authentication..ASPXAUTH#]" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMCSRF_In.Caption" Value="BPMCSRF" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMCSRF_In.DisplayValue" Value="[#Authentication.BPMCSRF#]" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMLOADER_In.Caption" Value="BPMLOADER" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMLOADER_In.DisplayValue" Value="[#Authentication.BPMLOADER#]" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMSESSIONID_In.Caption" Value="BPMSESSIONID" />
+			<Item Name="BaseElements.WebService2.Parameters.DgBPMSESSIONID_In.DisplayValue" Value="[#Authentication.Message#]" />
+			<Item Name="BaseElements.WebService2.Parameters.DgForceUseSession_In.Caption" Value="ForceUseSession" />
+			<Item Name="BaseElements.WebService2.Parameters.Dgodatacontext_Out.Caption" Value="@odata.context" />
+			<Item Name="BaseElements.WebService2.Parameters.DgPContentType_In.Caption" Value="Content-Type" />
+			<Item Name="BaseElements.WebService2.Parameters.DgSsoSessionId_In.Caption" Value="SsoSessionId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgSsoSessionId_In.DisplayValue" Value="[#Authentication.SsoSessionId#]" />
+			<Item Name="BaseElements.WebService2.Parameters.Dgtop_In.Caption" Value="$top" />
+			<Item Name="BaseElements.WebService2.Parameters.Dgtop_In.DisplayValue" Value="5" />
+			<Item Name="BaseElements.WebService2.Parameters.Dgtop_In.Value" Value="5" />
+			<Item Name="BaseElements.WebService2.Parameters.DgUserName_In.Caption" Value="UserName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgUserName_In.DisplayValue" Value="[#Authentication.UserName - Output#]" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.Caption" Value="Value" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVACId_Out.Caption" Value="AccountCategoryId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVAddress_Out.Caption" Value="Address" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVALId_Out.Caption" Value="AccountLogoId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgValue1_Out.Caption" Value="GPSN" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgValue2_Out.Caption" Value="GPSE" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgValue3_Out.Caption" Value="AUM" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVAName_Out.Caption" Value="AlternativeName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVAPhone_Out.Caption" Value="AdditionalPhone" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVARId_Out.Caption" Value="AnnualRevenueId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVATId_Out.Caption" Value="AddressTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCBId_Out.Caption" Value="CreatedById" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCId_Out.Caption" Value="CityId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCId1_Out.Caption" Value="CountryId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCode_Out.Caption" Value="Code" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCompleteness_Out.Caption" Value="Completeness" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVCOn_Out.Caption" Value="CreatedOn" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDADate_Out.Caption" Value="DgAmendmentDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDAMEmail_Out.Caption" Value="DgAccountManagerEmail" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDAMName_Out.Caption" Value="DgAccountManagerName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDAMPNumber_Out.Caption" Value="DgAccountManagerPhoneNumber" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDANo_Out.Caption" Value="DgAccountNo" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDATId_Out.Caption" Value="DgAccountTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDBAddrees_Out.Caption" Value="DgBusinessAddrees" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDBNId_Out.Caption" Value="DgBusinessNatureId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDBType_Out.Caption" Value="DgBusinessType" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCAccounts_Out.Caption" Value="DgConsolidatedAccounts" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCAVId_Out.Caption" Value="DgCorporateAccountValueId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCCode_Out.Caption" Value="DgCustomerCode" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCCTId_Out.Caption" Value="DgCorporateCustomerTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCDate_Out.Caption" Value="DgCreatedDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCDate1_Out.Caption" Value="DgCommencementDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCDate2_Out.Caption" Value="DgClosingDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCEmail_Out.Caption" Value="DgCorporateEmail" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCFax_Out.Caption" Value="DgCorporateFax" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGCDString_Out.Caption" Value="DgCorporateGroupCreationDateString" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGCode_Out.Caption" Value="DgCorporateGroupCode" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGId_Out.Caption" Value="DgCustomerGroupId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGId1_Out.Caption" Value="DgCorporateGroupId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGName_Out.Caption" Value="DgCorporateGroupName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGNumber_Out.Caption" Value="DgCorporateGroupNumber" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGOCId_Out.Caption" Value="DgCorporateGroupOwnerCustomerId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGStatus_Out.Caption" Value="DgCorporateGroupStatus" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGTId_Out.Caption" Value="DgCorporateGroupTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCGTString_Out.Caption" Value="DgCorporateGroupTypeString" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCId_Out.Caption" Value="DgCustomerId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCId1_Out.Caption" Value="DgCorporateId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCLId_Out.Caption" Value="DgCustomerLanguageId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCLId1_Out.Caption" Value="DgCustomerLevelId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCName_Out.Caption" Value="DgCustomerName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCName1_Out.Caption" Value="DgCorporateName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCPNumber_Out.Caption" Value="DgCorporatePhoneNumber" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCSName_Out.Caption" Value="DgCorporateShortName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCStatus_Out.Caption" Value="DgCompanyStatus" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCTId_Out.Caption" Value="DgCustomerTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDCTId1_Out.Caption" Value="DgCompanyTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDDAId_Out.Caption" Value="DgDefaultAccountId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDDBirth_Out.Caption" Value="DgDateofBirth" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDDCode_Out.Caption" Value="DgDealerCode" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDEDate_Out.Caption" Value="DgBRNExpiryDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDEDate1_Out.Caption" Value="DgEffectiveDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDEPGNo_Out.Caption" Value="DgExistingParentGroupNo" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDESGName_Out.Caption" Value="DgExistingSubGroupName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDESGNo_Out.Caption" Value="DgExistingSubGroupNo" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDFAccount_Out.Caption" Value="DgFromAccount" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDFYEnd_Out.Caption" Value="DgFinancialYearEnd" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDg_Out.Caption" Value="DgBRN" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDGDId_Out.Caption" Value="DgGeographicDistributionId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDGId_Out.Caption" Value="DgGenderId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDIDate_Out.Caption" Value="DgIncorporationDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDINumber_Out.Caption" Value="DgIdNumber" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDITId_Out.Caption" Value="DgIdTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDITId1_Out.Caption" Value="DgIncorporationTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDLEDate_Out.Caption" Value="DgLicenseExpiryDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDLFFiled_Out.Caption" Value="DgLastFinancialFiled" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDLRUpdate_Out.Caption" Value="DgLastRamciUpdate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDLUDate_Out.Caption" Value="DgLastUpdateDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDMBold_Out.Caption" Value="DgMessageBold" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDMSId_Out.Caption" Value="DgMaritalStatusId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDMStanding_Out.Caption" Value="DgMarketStanding" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDOId_Out.Caption" Value="DgOccupationId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPCapital_Out.Caption" Value="DgPadiupCapital" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPCId_Out.Caption" Value="DgPaidupCapital2Id" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPCId1_Out.Caption" Value="DgParentCustomerId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPECompany_Out.Caption" Value="DgPrivateExemptCompany" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPEDate_Out.Caption" Value="DgPassportExpiryDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDPRAId_Out.Caption" Value="DgPaymentResponsibleAccountId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDRDate_Out.Caption" Value="DgRegistrationDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDRemark_Out.Caption" Value="DgRemark" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDRId_Out.Caption" Value="DgRaceId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDRType_Out.Caption" Value="DgReportType" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSCode_Out.Caption" Value="DgSalesmanCode" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSCount_Out.Caption" Value="DgSubscriberCount" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDShareholding_Out.Caption" Value="DgShareholding" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSId_Out.Caption" Value="DgSearchId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSName_Out.Caption" Value="DgSearchName" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSource_Out.Caption" Value="DgSource" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSPercentage_Out.Caption" Value="DgSharePercentage" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDStatus_Out.Caption" Value="DgStatus" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSTId_Out.Caption" Value="DgSalaryTurnoverId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSTId1_Out.Caption" Value="DgSalesTurnoverId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDSTId2_Out.Caption" Value="DgSubscriberTypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTACapital_Out.Caption" Value="DgTotalAuthorisedCapital" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTCId_Out.Caption" Value="DgTopCustomerId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTDate_Out.Caption" Value="DgTablingDate" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTId_Out.Caption" Value="DgTitleId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTPCapital_Out.Caption" Value="DgTotalPaidupCapital" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTPId_Out.Caption" Value="DgTelcoProvidersId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTUId_Out.Caption" Value="DgTelecomUsageId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDTUId1_Out.Caption" Value="DgTempUserId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDUnits_Out.Caption" Value="DgUnits" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDUReports_Out.Caption" Value="DgUnqualifiedReports" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVDUrl_Out.Caption" Value="DgUrl" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVENId_Out.Caption" Value="EmployeesNumberId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVFax_Out.Caption" Value="Fax" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVId_Out.Caption" Value="Id" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVIId_Out.Caption" Value="IndustryId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVLCType_Out.Caption" Value="Logo@odata.mediaContentType" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVLELink_Out.Caption" Value="Logo@odata.mediaEditLink" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVLRLink_Out.Caption" Value="Logo@odata.mediaReadLink" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVMBId_Out.Caption" Value="ModifiedById" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVMOn_Out.Caption" Value="ModifiedOn" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVName_Out.Caption" Value="Name" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVNotes_Out.Caption" Value="Notes" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVOId_Out.Caption" Value="OwnerId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVOId1_Out.Caption" Value="OwnershipId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVPCId_Out.Caption" Value="PrimaryContactId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVPhone_Out.Caption" Value="Phone" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVPId_Out.Caption" Value="ParentId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVPLId_Out.Caption" Value="PriceListId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVPListeners_Out.Caption" Value="ProcessListeners" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVRId_Out.Caption" Value="RegionId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVTId_Out.Caption" Value="TypeId" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVWeb_Out.Caption" Value="Web" />
+			<Item Name="BaseElements.WebService2.Parameters.DgValue_Out.DgVZip_Out.Caption" Value="Zip" />
+			<Item Name="BaseElements.WebService2.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService2.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService2.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService2.Parameters.Success.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService3.Caption" Value="Get Submission In Order " />
+			<Item Name="BaseElements.WebService3.Parameters.DgAccept_In.Caption" Value="Accept" />
+			<Item Name="BaseElements.WebService3.Parameters.DgASPXAUTH_In.Caption" Value=".ASPXAUTH" />
+			<Item Name="BaseElements.WebService3.Parameters.DgASPXAUTH_In.DisplayValue" Value="[#Authentication..ASPXAUTH#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgASPXAUTH_In.Value" Value="[#Authentication..ASPXAUTH#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMCSRF_In.Caption" Value="BPMCSRF" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMCSRF_In.DisplayValue" Value="[#Authentication.BPMCSRF#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMCSRF_In.Value" Value="[#Authentication.BPMCSRF#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMLOADER_In.Caption" Value="BPMLOADER" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMLOADER_In.DisplayValue" Value="[#Authentication.BPMLOADER#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMLOADER_In.Value" Value="[#Authentication.BPMLOADER#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMSESSIONID_In.Caption" Value="BPMSESSIONID" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMSESSIONID_In.DisplayValue" Value="[#Authentication.Message#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgBPMSESSIONID_In.Value" Value="[#Authentication.Message#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgForceUseSession_In.Caption" Value="ForceUseSession" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.Caption" Value="Parameter" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgAName_Out.Caption" Value="Administration1Name" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgAName1_Out.Caption" Value="Administration2Name" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgAName2_Out.Caption" Value="Authorized1Name" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgAName3_Out.Caption" Value="Authorized2Name" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgCBy_Out.Caption" Value="CreatedBy" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgCEDate_Out.Caption" Value="CardExpiredDate" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgCity_Out.Caption" Value="City" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgCName_Out.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgCountry_Out.Caption" Value="Country" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgDAddress_Out.Caption" Value="DeliveryAddress" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgFL_Out.Caption" Value="FL" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgINo_Out.Caption" Value="IdNo" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgIType_Out.Caption" Value="IdType" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgLine_Out.Caption" Value="Line" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgMPAdministration_Out.Caption" Value="MobilePhoneAdministration1" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgMPAdministration1_Out.Caption" Value="MobilePhoneAdministration2" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgOTNAdministration_Out.Caption" Value="OfficeTelNoAdministration1" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgOTNAdministration1_Out.Caption" Value="OfficeTelNoAdministration2" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgPostcode_Out.Caption" Value="Postcode" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgRegion_Out.Caption" Value="Region" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgSNumber_Out.Caption" Value="SerialNumber" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgSource_Out.Caption" Value="Source" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgStatus_Out.Caption" Value="Status" />
+			<Item Name="BaseElements.WebService3.Parameters.DgParameter_Out.DgType_Out.Caption" Value="Type" />
+			<Item Name="BaseElements.WebService3.Parameters.DgPContentType_In.Caption" Value="Content-Type" />
+			<Item Name="BaseElements.WebService3.Parameters.DgSsoSessionId_In.Caption" Value="SsoSessionId" />
+			<Item Name="BaseElements.WebService3.Parameters.DgUserName_In.Caption" Value="UserName" />
+			<Item Name="BaseElements.WebService3.Parameters.DgUserName_In.DisplayValue" Value="[#Authentication.UserName - Output#]" />
+			<Item Name="BaseElements.WebService3.Parameters.DgUserName_In.Value" Value="[#Authentication.UserName - Output#]" />
+			<Item Name="BaseElements.WebService3.Parameters.RequestBody.Caption" Value="Request body" />
+			<Item Name="BaseElements.WebService3.Parameters.Response.Caption" Value="Response body" />
+			<Item Name="BaseElements.WebService3.Parameters.StatusCode.Caption" Value="Http status code" />
+			<Item Name="BaseElements.WebService3.Parameters.Success.Caption" Value="Success" />
+			<Item Name="Caption" Value="Get Submission" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.Data.Caption" Value="Data" />
+			<Item Name="Parameters.Data.DgCorporateEmail.Caption" Value="DgCorporateEmail" />
+			<Item Name="Parameters.Data.DisplayValue" Value="[#Get Account .Value#]" />
+		</Items>
+	</Group>
+</Resources>

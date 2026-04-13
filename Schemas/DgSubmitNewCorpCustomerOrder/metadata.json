@@ -1,0 +1,549 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+      "A2": "DgSubmitNewCorpCustomerOrder",
+      "A5": "6ca93232-9856-4a04-9b15-8f018391682f",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+      "B8": "8.0.7.3864",
+      "IQ1": "http://10.89.20.164:9000/cxf/v1/ord/SubmitNewCorpCustomerOrder/",
+      "IQ2": 2,
+      "IQ7": [
+        {
+          "UId": "6c06bc7d-8838-4f45-a615-5feb0d7f3fcb",
+          "A2": "http://digi.com.my/",
+          "A3": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "A4": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "JG1": "tem",
+          "JG2": true
+        },
+        {
+          "UId": "11f2fe16-b0ef-49ba-ab7b-f07feafa7e0c",
+          "A2": "http://digi.com.my/Fees",
+          "A3": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "A4": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "JG1": "ns0"
+        }
+      ],
+      "IQ4": [
+        {
+          "UId": "8123edbc-44bb-d802-3788-cfc481d103a1",
+          "A2": "DgSNCCOrder_66b19ed2",
+          "A3": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "A4": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+          "IR3": 5000,
+          "IR5": "urn:SubmitNewCorpCustomerOrderOperation",
+          "IR1": {
+            "IW2": 2,
+            "IW1": [
+              {
+                "UId": "2d483e53-3fd3-272e-77f1-a7d72730ffd7",
+                "A2": "DgVResult",
+                "IU1": "tem:ValidationResult",
+                "IU2": "Text",
+                "IU8": "tem:ValidationResult",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "42ef62dd-9bee-190c-45fd-3d4c1848a28c",
+                "A2": "DgOId",
+                "IU1": "tem:OrderId",
+                "IU2": "Text",
+                "IU8": "tem:OrderId",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "0c5b367d-b09e-e555-915d-8f23493ac8ab",
+                "A2": "DgIRPCollection",
+                "IU1": "tem:IsRequirePaymentCollection",
+                "IU2": "Boolean",
+                "IU8": "tem:IsRequirePaymentCollection",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "08095b3c-2ebf-6b09-ce46-c264e741d873",
+                "A2": "DgPChannel",
+                "IU1": "tem:PaymentChannel",
+                "IU2": "Text",
+                "IU8": "tem:PaymentChannel",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "53c160ba-6811-c06f-9b18-1a927e230c51",
+                "A2": "DgCCustomer",
+                "IU1": "tem:CorporateCustomer",
+                "IU2": "Text",
+                "IU8": "tem:CorporateCustomer",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "7a3e7faf-b780-cac7-6377-bffe39803c42",
+                "A2": "DgCGroup",
+                "IU1": "tem:CorporateGroup",
+                "IU2": "Text",
+                "IU8": "tem:CorporateGroup",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "94edb5a0-c974-3fb7-4337-7de547716e41",
+                "A2": "DgFFPCPCCId",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:PaymentCollectionChannelId",
+                "IU2": "Text",
+                "IU8": "ns0:PaymentCollectionChannelId",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "9f459a97-c7c7-0445-59f4-c3889bb5704f",
+                "A2": "DgFFPCBCode",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:BranchCode",
+                "IU2": "Text",
+                "IU8": "ns0:BranchCode",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1d7f3dbf-bde2-0bfd-97d0-e54712928deb",
+                "A2": "DgFFPCPDList",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:PaymentDetailsList",
+                "IU2": "Float",
+                "IU8": "ns0:PaymentDetailsList",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "0167c828-4b1b-5a20-ccd1-348f678ccdf9",
+                "A2": "DgFFPCollection",
+                "IU1": "tem:Fees/tem:FeePaymentCollection",
+                "IU2": "Float",
+                "IU3": true,
+                "IU8": "ns0:PaymentDetailsRecord",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "54a0120a-306f-abda-f800-bade42f135ba",
+                "A2": "DgFFPCPMethod",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:PaymentMethod",
+                "IU2": "Text",
+                "IU8": "ns0:PaymentMethod",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e8098f70-349f-bf6b-780c-0ddb2e72648b",
+                "A2": "DgFFPCPAmount",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:PaymentAmount",
+                "IU2": "Float",
+                "IU8": "ns0:PaymentAmount",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1987d32e-08b1-871d-4ef9-610b09f4acea",
+                "A2": "DgFFPCBName",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:BankName",
+                "IU2": "Text",
+                "IU8": "ns0:BankName",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "6d1aea4c-1266-0e1b-2a99-6bd8e9fd0bd9",
+                "A2": "DgFFPCCCType",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:CreditCardType",
+                "IU2": "Text",
+                "IU8": "ns0:CreditCardType",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "2cd857d6-06b9-654f-b9fd-dfc8e1cee0c9",
+                "A2": "DgFFPCCNumber",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:CardNumber",
+                "IU2": "Text",
+                "IU8": "ns0:CardNumber",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "27381099-bfcb-36c8-7e16-3ba327578e6d",
+                "A2": "DgFFPCCNumber1",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:ChequeNumber",
+                "IU2": "Text",
+                "IU8": "ns0:ChequeNumber",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "40a36a56-6201-f561-31bd-f82cda9b8e5c",
+                "A2": "DgFFPCBCode1",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:BankCode",
+                "IU2": "Text",
+                "IU8": "ns0:BankCode",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "4a2e2e94-d3a9-9c87-c2c4-555a6c2d8c2d",
+                "A2": "DgFFPCRemarks",
+                "IU1": "tem:Fees/tem:FeePaymentCollection/ns0:Remarks",
+                "IU2": "Text",
+                "IU8": "ns0:Remarks",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "5b417d25-81ce-3a57-4fce-7d9ecb13fb52",
+                "A2": "DgDealer",
+                "IU1": "tem:Dealer",
+                "IU2": "Text",
+                "IU8": "tem:Dealer",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3890ad94-6767-eb3c-7e83-7bda887b6d9d",
+                "A2": "DgTPProxy",
+                "IU1": "tem:ThirdPartyProxy",
+                "IU2": "Text",
+                "IU8": "tem:ThirdPartyProxy",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "b8e36d57-4307-7d0e-25e5-e816fa7d51a2",
+                "A2": "DgRemark",
+                "IU1": "tem:Remark",
+                "IU2": "Text",
+                "IU8": "tem:Remark",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "bb6b39c2-565e-669a-2b8c-a2bc5a29122b",
+                "A2": "DgSSystem",
+                "IU1": "tem:SourceSystemID",
+                "IU2": "Text",
+                "IU8": "tem:SourceSystemID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1ce58134-09ea-04de-0c90-e3a336c89036",
+                "A2": "DgReference",
+                "IU1": "tem:ReferenceID",
+                "IU2": "Text",
+                "IU8": "tem:ReferenceID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f5e33fba-200b-4a02-48f5-2e50b0e06173",
+                "A2": "DgCMedia",
+                "IU1": "tem:ChannelMedia",
+                "IU2": "Text",
+                "IU8": "tem:ChannelMedia",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "10029a20-c7b1-08bc-7b4f-6798c61295da",
+                "A2": "DgGUID",
+                "IU1": "tem:GUID",
+                "IU2": "Text",
+                "IU8": "tem:GUID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "13f16255-3b04-e3a9-9199-c81e615e69e8",
+                "A2": "DgStatus",
+                "IU1": "tem:Status",
+                "IU2": "Text",
+                "IU8": "tem:Status",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "17c18aa3-a8f3-72a7-4f09-888bc47782eb",
+                "A2": "DgECode",
+                "IU1": "tem:ErrorCode",
+                "IU2": "Text",
+                "IU8": "tem:ErrorCode",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "27ac9c1c-dbb7-bee3-ff0a-0061bf219705",
+                "A2": "DgEDescription",
+                "IU1": "tem:ErrorDescription",
+                "IU2": "Text",
+                "IU8": "tem:ErrorDescription",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "a395a803-6a4f-0190-33d0-71c94f38bddc",
+                "A2": "DgUMessage",
+                "IU1": "tem:UserMessage",
+                "IU2": "Text",
+                "IU8": "tem:UserMessage",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e9336fcd-2f23-ac02-e65f-f700f68fdde5",
+                "A2": "DgMInfo",
+                "IU1": "tem:MoreInfo",
+                "IU2": "Text",
+                "IU8": "tem:MoreInfo",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "2db40464-8a2e-9aaf-b84e-d5400db4769b",
+                "A2": "DgBUnit",
+                "IU1": "tem:BusinessUnit",
+                "IU2": "Text",
+                "IU8": "tem:BusinessUnit",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "SubmitNewCorpCustomerOrderRequest"
+          },
+          "IR2": {
+            "IW2": 2,
+            "IW1": [
+              {
+                "UId": "38fe8696-872c-c338-5ff0-087f6671a93a",
+                "A2": "DgSSystem",
+                "IU1": "tem:SourceSystemID",
+                "IU2": "Text",
+                "IU8": "tem:SourceSystemID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "399ea780-c669-599d-991e-5d7d617b7814",
+                "A2": "DgReference",
+                "IU1": "tem:ReferenceID",
+                "IU2": "Text",
+                "IU8": "tem:ReferenceID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "856e6acc-2afa-a3c2-4f2e-4bc61b1a6aed",
+                "A2": "DgCMedia",
+                "IU1": "tem:ChannelMedia",
+                "IU2": "Text",
+                "IU8": "tem:ChannelMedia",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ebf87ac0-6111-63e2-4063-9a44c94efa8f",
+                "A2": "DgGUID",
+                "IU1": "tem:GUID",
+                "IU2": "Text",
+                "IU8": "tem:GUID",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "af4f3f5a-1c0a-a71a-79dd-a9db3925a166",
+                "A2": "DgStatus",
+                "IU1": "tem:Status",
+                "IU2": "Text",
+                "IU8": "tem:Status",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "0837fae4-4452-1950-3cb5-608c16842899",
+                "A2": "DgECode",
+                "IU1": "tem:ErrorCode",
+                "IU2": "Text",
+                "IU8": "tem:ErrorCode",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "496f9374-cb68-ce3f-6631-baca496a7940",
+                "A2": "DgEDescription",
+                "IU1": "tem:ErrorDescription",
+                "IU2": "Text",
+                "IU8": "tem:ErrorDescription",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "68df1c30-141e-f3c8-904c-23dea880246c",
+                "A2": "DgUMessage",
+                "IU1": "tem:UserMessage",
+                "IU2": "Text",
+                "IU8": "tem:UserMessage",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "6ac0f414-08e4-2ea7-38fc-855ef4709943",
+                "A2": "DgMInfo",
+                "IU1": "tem:MoreInfo",
+                "IU2": "Text",
+                "IU8": "tem:MoreInfo",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "8f9203d9-e2fd-0594-5c2a-af1a935c1040",
+                "A2": "DgBUnit",
+                "IU1": "tem:BusinessUnit",
+                "IU2": "Text",
+                "IU8": "tem:BusinessUnit",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

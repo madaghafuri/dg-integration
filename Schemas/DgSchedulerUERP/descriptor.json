@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3a5ce106-a585-4726-9d66-b1bfb29eedbf",
+    "Name": "DgSchedulerUERP",
+    "ModifiedOnUtc": "\/Date(1717125067000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Scheduler UERP",
+    "DependsOn": []
+  }
+}

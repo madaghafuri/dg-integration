@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8507129e-755a-4fe8-b3fe-ae7c646b7f56",
+    "Name": "DgBPAutoAddVPNGroupMember",
+    "ModifiedOnUtc": "\/Date(1721113001000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto AddVPNGroupMember",
+    "DependsOn": []
+  }
+}

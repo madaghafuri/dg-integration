@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b2b04a6f-5a3a-462c-b3ee-3f393e9f891b",
+    "Name": "DgBPTestCheckTransactionStatus",
+    "ModifiedOnUtc": "\/Date(1708673572000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Check Transaction Status",
+    "DependsOn": []
+  }
+}

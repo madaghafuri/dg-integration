@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e12513df-ea9b-47f8-9649-8b90085c2b32",
+    "Name": "DgValidateCorporateOrderRequestModel",
+    "ModifiedOnUtc": "\/Date(1715944156000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Validate Corporate Order Request Model",
+    "DependsOn": []
+  }
+}

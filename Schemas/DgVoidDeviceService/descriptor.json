@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "562b8312-eb4d-4b80-9e0d-a1dd3c26a6d9",
+    "Name": "DgVoidDeviceService",
+    "ModifiedOnUtc": "\/Date(1715682773000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Void Device Service",
+    "DependsOn": []
+  }
+}

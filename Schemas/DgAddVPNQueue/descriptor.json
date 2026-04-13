@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ab2ae643-60a5-47a3-a986-cb2cb842764b",
+    "Name": "DgAddVPNQueue",
+    "ModifiedOnUtc": "\/Date(1721031564000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "AddVPNGroupMember: Queue",
+    "DependsOn": []
+  }
+}

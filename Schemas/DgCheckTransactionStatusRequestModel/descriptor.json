@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b585dad2-211b-4c3b-8e1a-c3c3c06bf57a",
+    "Name": "DgCheckTransactionStatusRequestModel",
+    "ModifiedOnUtc": "\/Date(1708661287000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Check Transaction Status Request Model",
+    "DependsOn": []
+  }
+}

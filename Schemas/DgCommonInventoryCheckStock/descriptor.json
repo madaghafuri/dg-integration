@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "bb01cc93-9ef5-4003-aeab-80997f99c21f",
+    "Name": "DgCommonInventoryCheckStock",
+    "ModifiedOnUtc": "\/Date(1724642176000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Common Inventory Check Stock",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="UERP Order Tracking" />
+			<Item Name="Columns.DgAPIName.Caption" Value="API Name" />
+			<Item Name="Columns.DgCreatedBy.Caption" Value="Created By" />
+			<Item Name="Columns.DgFileName.Caption" Value="File Name" />
+			<Item Name="Columns.DgLineDetail.Caption" Value="Line Detail" />
+			<Item Name="Columns.DgLogFile.Caption" Value="Log File" />
+			<Item Name="Columns.DgOriginalSysDocumentRef.Caption" Value="Original Sys Document Ref" />
+			<Item Name="Columns.DgStatus.Caption" Value="Status" />
+		</Items>
+	</Group>
+</Resources>

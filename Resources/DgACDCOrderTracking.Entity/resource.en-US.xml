@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="ACDC Order Tracking" />
+			<Item Name="Columns.DgAPI.Caption" Value="API" />
+			<Item Name="Columns.DgCreatedBy.Caption" Value="Created By" />
+			<Item Name="Columns.DgDateTimeReleased.Caption" Value="Date/Time Released" />
+			<Item Name="Columns.DgFileName.Caption" Value="File Name" />
+			<Item Name="Columns.DgLineDetail.Caption" Value="Line Detail" />
+			<Item Name="Columns.DgLogFile.Caption" Value="Log File" />
+			<Item Name="Columns.DgMSISDN.Caption" Value="MSISDN" />
+			<Item Name="Columns.DgOrderID.Caption" Value="Order ID" />
+			<Item Name="Columns.DgRemarks.Caption" Value="Remarks" />
+			<Item Name="Columns.DgResultCode.Caption" Value="Result Code" />
+			<Item Name="Columns.DgResultMessage.Caption" Value="Result Message" />
+			<Item Name="Columns.DgStatus.Caption" Value="Status" />
+			<Item Name="Columns.DgTransactionID.Caption" Value="Transaction ID" />
+			<Item Name="Columns.DgTransactionType.Caption" Value="Transaction Type" />
+		</Items>
+	</Group>
+</Resources>

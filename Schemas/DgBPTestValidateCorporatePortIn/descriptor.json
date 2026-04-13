@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d8e04c15-9db3-45c1-b6ba-18a2cab2f435",
+    "Name": "DgBPTestValidateCorporatePortIn",
+    "ModifiedOnUtc": "\/Date(1699078969000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Validate Corporate Port In",
+    "DependsOn": []
+  }
+}

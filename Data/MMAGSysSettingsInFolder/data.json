@@ -1,0 +1,94 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "40cd2143-5cf8-4cda-bd3f-89a0f3459405"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "736df372-290a-4ec8-b7f0-cdf807dd1a36",
+          "DisplayValue": "MMAG Order Create: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "f2ff285f-04cc-4435-828f-d51608727cce",
+          "DisplayValue": "MMAG Order Create"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "65421649-8fcb-4934-805a-3ee9a09a09aa"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "2eb0da64-5fae-416e-a90d-d21cce989c33",
+          "DisplayValue": "MMAG Order Create: Username"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "f2ff285f-04cc-4435-828f-d51608727cce",
+          "DisplayValue": "MMAG Order Create"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9a0b334f-c3a8-45aa-97c2-99baefb16d3f"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "5e590b39-7333-44d4-9768-8a9548489a71",
+          "DisplayValue": "MMAG Order Create: Header SOAP Action"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "f2ff285f-04cc-4435-828f-d51608727cce",
+          "DisplayValue": "MMAG Order Create"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d86aa371-48fe-408d-bc31-149c5e79c432"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "a59e3928-c30f-467e-b9e7-bcaf8d0d1f3b",
+          "DisplayValue": "MMAG Order Create: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "f2ff285f-04cc-4435-828f-d51608727cce",
+          "DisplayValue": "MMAG Order Create"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ee2d575c-3e83-4e80-b306-10becb56afac"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "449eb2ba-7e87-428b-9ac8-55f84c25c592",
+          "DisplayValue": "MMAG Order Create: Password"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "f2ff285f-04cc-4435-828f-d51608727cce",
+          "DisplayValue": "MMAG Order Create"
+        }
+      ]
+    }
+  ]
+}

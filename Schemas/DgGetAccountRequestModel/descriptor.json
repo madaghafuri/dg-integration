@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "56252781-47fa-4a87-8f74-853df2351fa5",
+    "Name": "DgGetAccountRequestModel",
+    "ModifiedOnUtc": "\/Date(1700638460000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Get Account Request Model",
+    "DependsOn": []
+  }
+}

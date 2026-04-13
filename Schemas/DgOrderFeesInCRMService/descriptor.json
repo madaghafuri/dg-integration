@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d8c2d434-4064-4bb5-b1c4-1c211d9f6ed2",
+    "Name": "DgOrderFeesInCRMService",
+    "ModifiedOnUtc": "\/Date(1724836010000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Order Fees In CRM Service",
+    "DependsOn": []
+  }
+}

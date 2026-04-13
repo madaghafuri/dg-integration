@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "67485862-22f7-4c64-afa2-4357586261f4",
+    "Name": "DgActivationCallbackRequestModelCRMV1",
+    "ModifiedOnUtc": "\/Date(1715236098000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Activation Callback Request Model (CRM v1)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3704a8b0-2a3b-4dc1-9363-215849b99ecd",
+    "Name": "DgMMAGOrderCreateResponseModel",
+    "ModifiedOnUtc": "\/Date(1697438489000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "MMAG Order Create Response Model",
+    "DependsOn": []
+  }
+}

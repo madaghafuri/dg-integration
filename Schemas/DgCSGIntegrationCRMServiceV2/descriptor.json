@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e1b99ddd-6ae6-47dd-9386-59f31a939160",
+    "Name": "DgCSGIntegrationCRMServiceV2",
+    "ModifiedOnUtc": "\/Date(1716175357000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "CSG Integration CRM Service V2",
+    "DependsOn": []
+  }
+}

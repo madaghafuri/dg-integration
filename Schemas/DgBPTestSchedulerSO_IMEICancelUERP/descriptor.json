@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "46f60b77-ba65-49f7-b286-cb86ebb584f3",
+    "Name": "DgBPTestSchedulerSO_IMEICancelUERP",
+    "ModifiedOnUtc": "\/Date(1717124847000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] SO/IMEI Cancel UERP",
+    "DependsOn": []
+  }
+}

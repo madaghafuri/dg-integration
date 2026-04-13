@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f47a5b8-bb7f-40b9-9a5e-9e3ed0e1b7f0",
+    "Name": "DgMNPActivationService",
+    "ModifiedOnUtc": "\/Date(1723233853000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "MNP Activation Service",
+    "DependsOn": []
+  }
+}

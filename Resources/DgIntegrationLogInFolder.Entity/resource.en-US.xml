@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Integration Log in Folder" />
+			<Item Name="Columns.DgIntegrationLog.Caption" Value="Integration Log" />
+			<Item Name="Columns.Folder.Caption" Value="Integration Log folder" />
+		</Items>
+	</Group>
+</Resources>

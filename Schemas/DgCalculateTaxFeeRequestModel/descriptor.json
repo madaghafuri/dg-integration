@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1f597e91-a9d3-46bb-8c3b-56acda68e8d8",
+    "Name": "DgCalculateTaxFeeRequestModel",
+    "ModifiedOnUtc": "\/Date(1697531192000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Calculate Tax Fee Request Model",
+    "DependsOn": []
+  }
+}

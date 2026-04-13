@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "373fd89b-e174-4cdc-b920-5a6f20fa6953",
+    "Name": "DgBPTestCommonInventoryUnreserveStock",
+    "ModifiedOnUtc": "\/Date(1724642163000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Common Inventory - UnreserveStock",
+    "DependsOn": []
+  }
+}

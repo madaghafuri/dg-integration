@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Integration Log&quot;" />
+			<Item Name="LocalizableStrings.DgSchemade2c53c1Detailbda9b3ecDetailCaptionOnPage.Value" Value="Об'єкт вибірки" />
+		</Items>
+	</Group>
+</Resources>

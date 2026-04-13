@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7ebd1da9-b6b7-4764-8e76-b51b42d26a27",
+    "Name": "DgBPIPLProcess",
+    "ModifiedOnUtc": "\/Date(1728551350000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "IPL Process",
+    "DependsOn": []
+  }
+}

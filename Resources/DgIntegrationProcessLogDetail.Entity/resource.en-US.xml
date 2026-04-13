@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Integration Process Log Detail" />
+			<Item Name="Columns.DgIntegrationProcessLog.Caption" Value="Integration Process Log" />
+			<Item Name="Columns.DgName.Caption" Value="Name" />
+			<Item Name="Columns.DgRequestBody.Caption" Value="Request Body" />
+			<Item Name="Columns.DgResponseBody.Caption" Value="Response Body" />
+			<Item Name="Columns.DgSeqNo.Caption" Value="Seq No" />
+			<Item Name="Columns.DgUrlAPI.Caption" Value="Url API" />
+		</Items>
+	</Group>
+</Resources>

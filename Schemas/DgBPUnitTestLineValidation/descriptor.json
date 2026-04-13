@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "336cd005-df3d-42f8-a01f-f2bac30839e8",
+    "Name": "DgBPUnitTestLineValidation",
+    "ModifiedOnUtc": "\/Date(1714979113000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Unit Test] Line & Offer Validation",
+    "DependsOn": []
+  }
+}

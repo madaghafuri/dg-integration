@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9fab4dd0-3bb7-438e-94a0-7f9a93748135",
+    "Name": "DgUpdateStatusNCCFService",
+    "ModifiedOnUtc": "\/Date(1697426824000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Status NCCF Service",
+    "DependsOn": []
+  }
+}

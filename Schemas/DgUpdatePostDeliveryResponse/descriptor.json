@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ca42c00f-a47b-43b2-b52e-9bbdd82d8202",
+    "Name": "DgUpdatePostDeliveryResponse",
+    "ModifiedOnUtc": "\/Date(1697165042000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Post Delivery Response",
+    "DependsOn": []
+  }
+}

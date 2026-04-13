@@ -1,0 +1,17 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "7a276ea5-a3b5-4983-b050-56573f7a45a2",
+      "A2": "DgUpdateOrderStatusWebService",
+      "A5": "8bbca3e9-e0c9-401b-b60f-9ce9675d95c8",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+      "B8": "8.0.6.3597",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD2": "namespace Terrasoft.Configuration.DgUpdateOrderStatusWebServiceNamespace\n{\n    using System;\n\tusing System.IO;\n    using System.Collections;\n    using System.Collections.Generic;\n    using System.ServiceModel;\n    using System.ServiceModel.Web;\n    using System.ServiceModel.Activation;\n    using Terrasoft.Core;\n    using Terrasoft.Web.Common;\n    using Terrasoft.Core.Entities;\n    using System.Threading.Tasks;\n    using System.Xml.Serialization;\n    using System.IO;\n    using Newtonsoft.Json;\n    using System.Xml.Linq;\n    using System.Xml;\n    using System.Net;\n    using System.Xml.Serialization;\n    using System.Text.RegularExpressions;\n    using ISAEntityHelper.EntityHelper;\n    using Terrasoft.Core.DB;\n\tusing DgIntegration.DgActivationCallbackService;\n\tusing CRMResponse = DgIntegration.DgActivationCallbackService.CRMResponse;\n    \n    [XmlSerializerFormat]\n    [ServiceContract]\n    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]\n    public class DgUpdateOrderStatusWebService : BaseService\n    {\n        private string _result;\n\t\tprivate SystemUserConnection _systemUserConnection;\n\t\tprivate SystemUserConnection SystemUserConnection\n\t\t{\n\t\t\tget\n\t\t\t{\n\t\t\t\treturn _systemUserConnection ?? (_systemUserConnection = (SystemUserConnection)AppConnection.SystemUserConnection);\n\t\t\t}\n\t\t}\n\n        [OperationContract]\n        [WebInvoke(Method = \"POST\", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml)]\n        public CRMResponse.UpdateOrderStatusResponse CallBack(Stream request)\n        {\n            var service = new ActivationCallbackService(SystemUserConnection);\n\t\t\treturn service.Process<CRMResponse.UpdateOrderStatusResponse>(request);\n        }\n    }\n}"
+    }
+  }
+}

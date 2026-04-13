@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0e1fbf56-92f8-4c74-a400-2e96bd7600c4",
+    "Name": "DgIntegrationRPALogService",
+    "ModifiedOnUtc": "\/Date(1699071400000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Integration RPA Log Service",
+    "DependsOn": []
+  }
+}

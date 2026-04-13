@@ -1,0 +1,219 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "b3bef288-41e4-4081-8820-99f16e5df703",
+      "A2": "DgAuthentication",
+      "A5": "6ca93232-9856-4a04-9b15-8f018391682f",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+      "B8": "8.0.7.3864",
+      "IQ1": "https://digi.creatio.com",
+      "IQ2": 1,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "00309153-25f1-45ef-953c-d7e97e586b60",
+          "A2": "DgAuthentication",
+          "A3": "b3bef288-41e4-4081-8820-99f16e5df703",
+          "A4": "b3bef288-41e4-4081-8820-99f16e5df703",
+          "IR3": 300000,
+          "IR4": true,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "5426c4b5-b9a4-45f1-b70b-3d5433dcc875",
+                "A2": "DgUserName",
+                "IU1": "UserName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "Supervisor",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e190efe8-cde9-4e72-9f4c-4a415fa1bb26",
+                "A2": "DgUserPassword",
+                "IU1": "UserPassword",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "Digi@2022",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "/ServiceModel/AuthService.svc/Login"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "4673d81d-da66-42e2-94ef-5de2151b3a81",
+                "A2": "DgCode",
+                "IU1": "$.Code",
+                "IU2": "Integer",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "9f9bca29-59cf-41f3-a868-fb79703496e5",
+                "A2": "DgMessage",
+                "IU1": "Message",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ae412bde-cad5-4933-b525-940fd562c0e2",
+                "A2": "DgException",
+                "IU1": "Exception",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "01eced8e-8fe0-4fce-a3c6-fd7a3bda6db1",
+                "A2": "DgPCUrl",
+                "IU1": "PasswordChangeUrl",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "1fc05a44-bfe3-4a91-bc2f-a81c95e099c8",
+                "A2": "DgRUrl",
+                "IU1": "RedirectUrl",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "d5457fe0-c23e-4204-9750-0175243a4ff1",
+                "A2": "DgUType",
+                "IU1": "UserType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3d35e0fb-5c19-4f6d-8d3a-07cd471220a6",
+                "A2": "DgBPMCSRF",
+                "IU1": "BPMCSRF",
+                "IU2": "Text",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 5,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3bf13252-0301-4dde-b358-e9befb6d902e",
+                "A2": "DgASPXAUTH",
+                "IU1": ".ASPXAUTH",
+                "IU2": "Text",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 5,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "eaf0ba19-bc10-4e80-82fc-8512e1ab1785",
+                "A2": "DgBPMLOADER",
+                "IU1": "BPMLOADER",
+                "IU2": "Text",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 5,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "7a13f37d-1e73-42d8-98f1-cb330fa709e4",
+                "A2": "DgSsoSessionId",
+                "IU1": "SsoSessionId",
+                "IU2": "Text",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 5,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3d538e86-4f60-40f7-b2de-30504e31f79a",
+                "A2": "DgUserName",
+                "IU1": "UserName",
+                "IU2": "Text",
+                "IU7": true,
+                "IU8": "item",
+                "IU4": 5,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ],
+      "IQ5": {
+        "IY1": 1,
+        "IZ1": {
+          "IV2": 2
+        },
+        "IZ2": {
+          "IV2": 2
+        }
+      }
+    }
+  }
+}

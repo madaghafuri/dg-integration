@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c771088f-9f59-4be2-989b-b187317a37c5",
+    "Name": "DgSubmissionInOrder",
+    "ModifiedOnUtc": "\/Date(1690550826000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Get Submission In Order",
+    "DependsOn": []
+  }
+}

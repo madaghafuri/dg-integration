@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7a276ea5-a3b5-4983-b050-56573f7a45a2",
+    "Name": "DgUpdateOrderStatusWebService",
+    "ModifiedOnUtc": "\/Date(1716179894000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Order Status Web Service: Callback From CRM",
+    "DependsOn": []
+  }
+}

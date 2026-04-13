@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "844eab0f-3b83-438d-8cf0-73d9309f88bc",
+    "Name": "DgBPGetDataSFAProd",
+    "ModifiedOnUtc": "\/Date(1692207366000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get Data SFA Prod",
+    "DependsOn": []
+  }
+}

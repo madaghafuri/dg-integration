@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "76f925ec-4648-48b3-8898-03a8f85a0736",
+    "Name": "DgSubmitNewCorpCustomerOrderResponseModel",
+    "ModifiedOnUtc": "\/Date(1710233059000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Submit New Corp Customer Order Response Model",
+    "DependsOn": []
+  }
+}

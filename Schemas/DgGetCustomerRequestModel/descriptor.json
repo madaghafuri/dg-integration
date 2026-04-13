@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "009cf0da-f24d-4e5a-be54-b0aa32ca6636",
+    "Name": "DgGetCustomerRequestModel",
+    "ModifiedOnUtc": "\/Date(1706090023000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Get Customer Request Model",
+    "DependsOn": []
+  }
+}

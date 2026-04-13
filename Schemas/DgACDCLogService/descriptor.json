@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c5f5a96f-1ec6-42b9-86d7-65395fcc9c2f",
+    "Name": "DgACDCLogService",
+    "ModifiedOnUtc": "\/Date(1719251339000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "ACDC Log Helper",
+    "DependsOn": []
+  }
+}

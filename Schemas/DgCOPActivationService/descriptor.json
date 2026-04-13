@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b47a2a8a-39bc-4f0c-b5dd-3a3157aa3c1c",
+    "Name": "DgCOPActivationService",
+    "ModifiedOnUtc": "\/Date(1716973752000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "COP Activation Service",
+    "DependsOn": []
+  }
+}

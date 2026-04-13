@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a3709ef3-7988-4c89-b654-56445e6404b5"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "db560ad6-1f20-4c11-904c-1ec4aef0c2d4",
+          "DisplayValue": "Add VPN Group Member: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "21dcccc1-0c85-40d8-8ab4-0006413b16db",
+          "DisplayValue": "Add VPN Group Member Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "b3c56fab-fce8-4c7d-97d5-36d08fc03a90"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "3756d05d-d04b-43a9-a4f6-57474ee3b617",
+          "DisplayValue": "Add VPN Group Member: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "21dcccc1-0c85-40d8-8ab4-0006413b16db",
+          "DisplayValue": "Add VPN Group Member Integration"
+        }
+      ]
+    }
+  ]
+}

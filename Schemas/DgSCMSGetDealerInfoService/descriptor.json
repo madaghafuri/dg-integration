@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ab3d3b68-a7a0-44a9-bcd6-f01432767fb5",
+    "Name": "DgSCMSGetDealerInfoService",
+    "ModifiedOnUtc": "\/Date(1708490609000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "SCMS Get Dealer Info Service",
+    "DependsOn": []
+  }
+}

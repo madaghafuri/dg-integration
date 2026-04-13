@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "be7aa572-1937-4415-80c9-23cccd9ad7bb"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "e744b360-2c90-451c-91af-32f165d8f93b",
+          "DisplayValue": "Get Account: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "a1900b6a-4782-4f9c-b38e-4f945b1569fb",
+          "DisplayValue": "Get Account Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e69d0277-a514-4100-8442-fb662432ab08"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "8ba4b930-16dc-42c0-b57c-452e56a7caf7",
+          "DisplayValue": "Get Account: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "a1900b6a-4782-4f9c-b38e-4f945b1569fb",
+          "DisplayValue": "Get Account Integration"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3e006c26-04e4-4f1d-8970-c19788da5fc9",
+    "Name": "DgValidateCorporatePortInResponseModel",
+    "ModifiedOnUtc": "\/Date(1715941789000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Validate Corporate Port In Response Model",
+    "DependsOn": []
+  }
+}

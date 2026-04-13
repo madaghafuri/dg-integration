@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b4d468d2-0261-4c9f-9bc5-f32e65bf6dd3",
+    "Name": "DgConfirmPortInRequestModel",
+    "ModifiedOnUtc": "\/Date(1715941460000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Confirm Port In Request Model",
+    "DependsOn": []
+  }
+}

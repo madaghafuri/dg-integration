@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0491aa26-2cee-4d2e-a5c5-a3c6b470693a",
+    "Name": "DgBPSchedulerIPLProcess",
+    "ModifiedOnUtc": "\/Date(1722855932000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Scheduler] IPL Process",
+    "DependsOn": []
+  }
+}

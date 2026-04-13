@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e7b89628-eb91-4ca0-8078-73f6deec490c",
+    "Name": "DgUpdateOffering",
+    "ModifiedOnUtc": "\/Date(1713424170000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Offering Service",
+    "DependsOn": []
+  }
+}

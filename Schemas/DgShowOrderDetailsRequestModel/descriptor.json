@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f92218c-a693-4d84-8c2f-ab1d7f5be421",
+    "Name": "DgShowOrderDetailsRequestModel",
+    "ModifiedOnUtc": "\/Date(1708659745000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Show Order Details Request Model",
+    "DependsOn": []
+  }
+}

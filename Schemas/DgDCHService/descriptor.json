@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f1ef2fe-ebd7-47cb-a50c-e12f96c05c18",
+    "Name": "DgDCHService",
+    "ModifiedOnUtc": "\/Date(1725940914000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "DCH Service",
+    "DependsOn": []
+  }
+}

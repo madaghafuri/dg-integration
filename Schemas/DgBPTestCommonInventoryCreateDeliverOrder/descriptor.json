@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ca4844fd-f84f-4c01-ac23-71efc56a429a",
+    "Name": "DgBPTestCommonInventoryCreateDeliverOrder",
+    "ModifiedOnUtc": "\/Date(1724642104000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Common Inventory - Create Delivery Order",
+    "DependsOn": []
+  }
+}

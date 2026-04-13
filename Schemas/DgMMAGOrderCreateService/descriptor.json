@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8dbab983-271c-4620-9d19-ab0dc41affbd",
+    "Name": "DgMMAGOrderCreateService",
+    "ModifiedOnUtc": "\/Date(1722912326000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "MMAG Order Create Service",
+    "DependsOn": []
+  }
+}

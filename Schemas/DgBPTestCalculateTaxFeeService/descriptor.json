@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "191622e3-afd7-48fd-856a-22ea45d6d570",
+    "Name": "DgBPTestCalculateTaxFeeService",
+    "ModifiedOnUtc": "\/Date(1697537600000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Calculate Tax Fee Service",
+    "DependsOn": []
+  }
+}

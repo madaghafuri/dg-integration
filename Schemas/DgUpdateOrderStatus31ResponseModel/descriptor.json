@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2ac6b23f-1aec-40e3-a790-2f105618c500",
+    "Name": "DgUpdateOrderStatus31ResponseModel",
+    "ModifiedOnUtc": "\/Date(1700905241000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Order Status 31 Response Model",
+    "DependsOn": []
+  }
+}

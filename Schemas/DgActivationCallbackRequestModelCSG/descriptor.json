@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "df49bdf2-11ec-4a48-990b-07dfe635ac6b",
+    "Name": "DgActivationCallbackRequestModelCSG",
+    "ModifiedOnUtc": "\/Date(1719328877000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Activation Callback Request Model (CSG)",
+    "DependsOn": []
+  }
+}

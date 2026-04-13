@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "681be139-7907-40b2-baab-08773255712d"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "82059f95-b07b-4200-a272-7e5b36b929e0",
+          "DisplayValue": "Get Subscribers: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "eda48cd5-1278-4baf-8ae0-915a166f6b21",
+          "DisplayValue": "Get Subscribers Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "edf5278e-5a66-4cae-946b-e2067986cf88"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "18dc44b6-b9b9-4905-b41c-44e6077ac3b9",
+          "DisplayValue": "Get Subscribers: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "eda48cd5-1278-4baf-8ae0-915a166f6b21",
+          "DisplayValue": "Get Subscribers Integration"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "768bf30a-0f35-444e-a935-edd1ca3b0c50",
+    "Name": "DgCommonInventoryClassModel",
+    "ModifiedOnUtc": "\/Date(1724642234000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Common Inventory Class Model",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cad9195b-ee69-4972-8f3c-01e97c068d36",
+    "Name": "DgValidateCorporatePortInService",
+    "ModifiedOnUtc": "\/Date(1722938986000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Validate Corporate Port In Service",
+    "DependsOn": []
+  }
+}

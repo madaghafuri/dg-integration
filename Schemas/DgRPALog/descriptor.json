@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f964a5b-bb5f-4e4c-b2ea-25fadf3bfa08",
+    "Name": "DgRPALog",
+    "ModifiedOnUtc": "\/Date(1699066810000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "RPA Log",
+    "DependsOn": []
+  }
+}

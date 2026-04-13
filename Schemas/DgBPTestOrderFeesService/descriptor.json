@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7e069072-cce6-479f-ac4d-53be973741ca",
+    "Name": "DgBPTestOrderFeesService",
+    "ModifiedOnUtc": "\/Date(1724837133000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Order Fees Service",
+    "DependsOn": []
+  }
+}

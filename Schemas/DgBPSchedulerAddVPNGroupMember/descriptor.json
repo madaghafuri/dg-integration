@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7998a23e-5386-4e74-9cb0-ab13cde4857b",
+    "Name": "DgBPSchedulerAddVPNGroupMember",
+    "ModifiedOnUtc": "\/Date(1722323038000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Scheduler] Add VPN Group Member",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f735f9fa-65fc-434f-be1b-25d22f8da308",
+    "Name": "DgIntegrationLogInTag",
+    "ModifiedOnUtc": "\/Date(1684730480000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Integration Log section record tag",
+    "DependsOn": []
+  }
+}

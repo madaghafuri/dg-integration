@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="SubmitNewCorpCustomerOrder" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Caption" Value="SubmitNewCorpCustomerOrder" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgBUnit.Caption" Value="BusinessUnit" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgCCustomer.Caption" Value="CorporateCustomer" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgCGroup.Caption" Value="CorporateGroup" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgCMedia.Caption" Value="ChannelMedia" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgDealer.Caption" Value="Dealer" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgECode.Caption" Value="ErrorCode" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgEDescription.Caption" Value="ErrorDescription" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCBCode.Caption" Value="Fees FeePaymentCollection BranchCode" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCBCode1.Caption" Value="Fees FeePaymentCollection BankCode" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCBName.Caption" Value="Fees FeePaymentCollection BankName" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCCCType.Caption" Value="Fees FeePaymentCollection CreditCardType" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCCNumber.Caption" Value="Fees FeePaymentCollection CardNumber" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCCNumber1.Caption" Value="Fees FeePaymentCollection ChequeNumber" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCollection.Caption" Value="Fees FeePaymentCollection" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCPAmount.Caption" Value="Fees FeePaymentCollection PaymentAmount" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCPCCId.Caption" Value="Fees FeePaymentCollection PaymentCollectionChannelId" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCPDList.Caption" Value="Fees FeePaymentCollection PaymentDetailsList" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCPMethod.Caption" Value="Fees FeePaymentCollection PaymentMethod" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgFFPCRemarks.Caption" Value="Fees FeePaymentCollection Remarks" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgGUID.Caption" Value="GUID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgIRPCollection.Caption" Value="IsRequirePaymentCollection" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgMInfo.Caption" Value="MoreInfo" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgOId.Caption" Value="OrderId" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgPChannel.Caption" Value="PaymentChannel" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgReference.Caption" Value="ReferenceID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgRemark.Caption" Value="Remark" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgSSystem.Caption" Value="SourceSystemID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgStatus.Caption" Value="Status" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgTPProxy.Caption" Value="ThirdPartyProxy" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgUMessage.Caption" Value="UserMessage" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Request.Parameters.DgVResult.Caption" Value="ValidationResult" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgBUnit.Caption" Value="BusinessUnit" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgCMedia.Caption" Value="ChannelMedia" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgECode.Caption" Value="ErrorCode" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgEDescription.Caption" Value="ErrorDescription" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgGUID.Caption" Value="GUID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgMInfo.Caption" Value="MoreInfo" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgReference.Caption" Value="ReferenceID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgSSystem.Caption" Value="SourceSystemID" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgStatus.Caption" Value="Status" />
+			<Item Name="ServiceMethods.DgSNCCOrder_66b19ed2.Response.Parameters.DgUMessage.Caption" Value="UserMessage" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b7440a4a-1464-4fa4-a165-f1a148d0f238",
+    "Name": "DgOverrideDeviceService",
+    "ModifiedOnUtc": "\/Date(1715682176000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Override Device Service",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Integration Log" />
+			<Item Name="Columns.DgName.Caption" Value="שם" />
+			<Item Name="Columns.DgNotes.Caption" Value="הערות" />
+		</Items>
+	</Group>
+</Resources>

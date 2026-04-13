@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0a7793d8-0a26-4273-af8b-158c4e249633",
+    "Name": "DgRejectCRAndOPService",
+    "ModifiedOnUtc": "\/Date(1712635742000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Reject CR And OP Service",
+    "DependsOn": []
+  }
+}

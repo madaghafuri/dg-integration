@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "526198e8-4727-4ebc-b0d2-0a56b404da6a",
+    "Name": "DgOfferingDataCleaner",
+    "ModifiedOnUtc": "\/Date(1722063496000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Offering Data Cleaner",
+    "DependsOn": []
+  }
+}

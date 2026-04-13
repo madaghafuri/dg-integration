@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "dc2f7805-e640-4650-ac3a-b81966b65bf2",
+    "Name": "DgBPAutoCreateDeliveryProcess",
+    "ModifiedOnUtc": "\/Date(1728551755000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Common Inventory - Auto Create Delivery after callback UERP",
+    "DependsOn": []
+  }
+}

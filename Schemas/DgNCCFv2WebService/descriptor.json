@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8a997fa1-d4cd-407d-9d1d-c0c7dedbf344",
+    "Name": "DgNCCFv2WebService",
+    "ModifiedOnUtc": "\/Date(1722509483000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "NCCFv2 Web Service",
+    "DependsOn": []
+  }
+}

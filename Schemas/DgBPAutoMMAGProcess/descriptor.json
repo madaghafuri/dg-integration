@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e53b9e91-3868-416d-b682-cfa3f56aada4",
+    "Name": "DgBPAutoMMAGProcess",
+    "ModifiedOnUtc": "\/Date(1728552542000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "3PL - Auto MMAG after callback UERP",
+    "DependsOn": []
+  }
+}

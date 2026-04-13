@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ab10c743-148f-465a-96e9-8b2ff4a834b0",
+    "Name": "DgBPIntegrationToSFACROPReject",
+    "ModifiedOnUtc": "\/Date(1725871532000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Integration To SFA CR Reject ",
+    "DependsOn": []
+  }
+}

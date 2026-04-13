@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e5ee31cd-8581-4ced-a1ab-5c0f976f90f6",
+    "Name": "DgBPTestOverrideDevice",
+    "ModifiedOnUtc": "\/Date(1708672862000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Override Device",
+    "DependsOn": []
+  }
+}

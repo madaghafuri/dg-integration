@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4b8e7811-ddd0-40d5-ab1e-7bb956d52ce7",
+    "Name": "DgCommonInventoryCreateDeliveryOrder",
+    "ModifiedOnUtc": "\/Date(1728620657000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Common Inventory Create Delivery Order",
+    "DependsOn": []
+  }
+}

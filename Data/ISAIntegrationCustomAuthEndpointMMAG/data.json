@@ -1,0 +1,46 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9e92fe19-ce17-41e8-ba0c-69bb60d71650"
+        },
+        {
+          "SchemaColumnUId": "1ff27dac-ef09-b87c-a2e8-01b70dbeec72",
+          "Value": "SOAPAction"
+        },
+        {
+          "SchemaColumnUId": "d2d817fb-111e-3bf3-23d7-59fef70f37b2",
+          "Value": "https://csg.mmag.com.my/rest/digi/nccf/OrderCreate"
+        },
+        {
+          "SchemaColumnUId": "f65dd3e1-5eb4-edd2-9d16-bbad36004001",
+          "Value": "dfbfea4e-2c03-4436-9ce8-4a21a56d016b",
+          "DisplayValue": "MMAGOrderCreate"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "ae04840d-40b9-492d-ae9c-be7c66698fa6"
+        },
+        {
+          "SchemaColumnUId": "1ff27dac-ef09-b87c-a2e8-01b70dbeec72",
+          "Value": "SOAPAction"
+        },
+        {
+          "SchemaColumnUId": "d2d817fb-111e-3bf3-23d7-59fef70f37b2",
+          "Value": "https://csg.mmag.com.my/rest/digi/nccf/OrderCreate"
+        },
+        {
+          "SchemaColumnUId": "f65dd3e1-5eb4-edd2-9d16-bbad36004001",
+          "Value": "a2aeced8-f8a4-4ec1-a5b3-8d282517f12f",
+          "DisplayValue": "MMAGOrderCreate"
+        }
+      ]
+    }
+  ]
+}

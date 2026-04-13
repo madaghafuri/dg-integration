@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6d62b023-b6d0-44bd-a361-0876cd17819d",
+    "Name": "DgCommonInventoryService",
+    "ModifiedOnUtc": "\/Date(1727671852000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Common Inventory Service",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "41402329-17d7-4570-a4ea-c4766e2fb823",
+    "Name": "DgBPTestUpdateOrderStatusCSG",
+    "ModifiedOnUtc": "\/Date(1715843469000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Update Order Status (CSG Callback)",
+    "DependsOn": []
+  }
+}

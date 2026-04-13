@@ -1,0 +1,86 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "65dc8430-a442-4e76-9560-3f92624d2817"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "0f2375de-36eb-45fc-8297-09fbdc7ac7da",
+          "DisplayValue": "UERP Send Mail: Staging"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "SendEmailCallbackURL"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "api/callback/send-email-op"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "fcbc0890-ed7d-4643-9760-82c0156757be"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "e66a5c26-941e-4144-8b0c-247e6fca375c",
+          "DisplayValue": "UERP Send Mail: Production"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "SendEmailCallbackURL"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "api/callback/send-email-op"
+        }
+      ]
+    }
+  ]
+}

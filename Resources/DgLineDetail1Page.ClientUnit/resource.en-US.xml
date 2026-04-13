@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.DgTEST_ValidateCorpPortIn_CorporateGroupIdc208afaf9bea458296eac91bdc841a28LabelCaption.Value" Value="Corporate group id" />
+			<Item Name="LocalizableStrings.Tab6d4cfecfTabLabelTabCaption.Value" Value="test" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6281a64b-b98b-490f-995a-4f3bbedcdfa9",
+    "Name": "DgAppleIntegrationWebService",
+    "ModifiedOnUtc": "\/Date(1724833676000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Apple Integration Web Service",
+    "DependsOn": []
+  }
+}

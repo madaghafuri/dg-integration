@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "98d417b1-5dff-48eb-a390-64b3e0a2018f",
+    "Name": "DgActivationCallbackService",
+    "ModifiedOnUtc": "\/Date(1727339038000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Activation Callback Service",
+    "DependsOn": []
+  }
+}

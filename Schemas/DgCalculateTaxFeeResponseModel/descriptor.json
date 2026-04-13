@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ce9b6855-05cc-4efb-bea8-4146ce66b1af",
+    "Name": "DgCalculateTaxFeeResponseModel",
+    "ModifiedOnUtc": "\/Date(1697517769000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Calculate Tax Fee Response Model",
+    "DependsOn": []
+  }
+}

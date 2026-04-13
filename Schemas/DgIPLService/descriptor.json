@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cdb1d5be-25a8-4b09-b556-8fe0b9e62965",
+    "Name": "DgIPLService",
+    "ModifiedOnUtc": "\/Date(1726029271000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "IPL Service",
+    "DependsOn": []
+  }
+}

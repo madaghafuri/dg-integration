@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cc1f1008-d4bc-43b5-8faf-0ca113c19a55",
+    "Name": "DgOrderFeesResponseModel",
+    "ModifiedOnUtc": "\/Date(1724833228000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Order Fees Response Model",
+    "DependsOn": []
+  }
+}

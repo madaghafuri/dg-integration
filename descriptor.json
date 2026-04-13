@@ -1,0 +1,26 @@
+﻿{
+  "Descriptor": {
+    "UId": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+    "PackageVersion": "1.0.0",
+    "Name": "DgIntegration",
+    "ModifiedOnUtc": "\/Date(1710401335000)\/",
+    "Maintainer": "Customer",
+    "DependsOn": [
+      {
+        "UId": "3e2899f2-3707-1fb7-b5f5-d7284860d683",
+        "PackageVersion": "1.0.0",
+        "Name": "DgCRMIntegration"
+      },
+      {
+        "UId": "9f4f64c2-5303-eff3-a0cf-981091d7b940",
+        "PackageVersion": "1.0.0",
+        "Name": "DgSubmission"
+      },
+      {
+        "UId": "e2b75e6f-e363-2d2c-db5d-3b24eb51e36e",
+        "PackageVersion": "1.0.0",
+        "Name": "DgSFAIntegration"
+      }
+    ]
+  }
+}

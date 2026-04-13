@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "efcfafd3-58b3-493a-9f46-e26ce45582fb",
+    "Name": "DgSchemade2c53c1Detail",
+    "ModifiedOnUtc": "\/Date(1694751783000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Integration Process Log Detail\"",
+    "DependsOn": []
+  }
+}

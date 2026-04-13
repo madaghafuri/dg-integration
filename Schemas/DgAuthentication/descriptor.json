@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b3bef288-41e4-4081-8820-99f16e5df703",
+    "Name": "DgAuthentication",
+    "ModifiedOnUtc": "\/Date(1690378184000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Authentication",
+    "DependsOn": []
+  }
+}

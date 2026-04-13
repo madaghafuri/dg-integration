@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d800a6a8-9e24-47a7-9da4-8520097c9cdd",
+    "Name": "DgBPTimerRPALog",
+    "ModifiedOnUtc": "\/Date(1699072000000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Timer RPA Log",
+    "DependsOn": []
+  }
+}

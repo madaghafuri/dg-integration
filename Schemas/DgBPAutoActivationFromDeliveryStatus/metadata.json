@@ -1,0 +1,265 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessSchemaManager",
+      "UId": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+      "A2": "DgBPAutoActivationFromDeliveryStatus",
+      "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+      "B1": [],
+      "B2": [],
+      "B3": [
+        {
+          "UId": "e9c2c78b-3bce-4a5f-a0d8-3b701707f0e0",
+          "A2": "DgIntegration.DgLineActivation",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "729f57e8-ee12-4c9d-b442-2e6ca8ec1ff0",
+          "A2": "DgSubmission.DgLineDetail",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "e19a8ef0-0944-47e0-9166-b81a21a69abe",
+          "A2": "DgBaseService.DgHelpers",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "bd2d5e37-68c5-48dd-89e4-1a6ebc944930",
+          "A2": "Newtonsoft.Json",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "d57161d7-ac61-4305-938b-ee94d03a8488",
+          "A2": "Terrasoft.Core.DB",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "725933a2-4a33-4357-a3b5-de8e7da7cae1",
+          "A2": "Terrasoft.Core.Entities",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "6ceb407f-b6da-46b6-a8e1-d7ec84f4851b",
+          "A2": "DgMasterData.DgLookupConst",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "LookupConst"
+        },
+        {
+          "UId": "4316e3e2-f70a-4acc-b92a-be2b0c70e341",
+          "A2": "System.Collections.Generic",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "fdc4abc1-c9f4-4ac4-a9d3-f5c8e8b47471",
+          "A2": "System.Threading.Tasks",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        },
+        {
+          "UId": "a8e14158-97a1-40e3-ba0a-ac05a8ea86e1",
+          "A2": "System.Linq",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "355f55ed-07d5-4c20-9ea5-634f899017f8",
+          "GF1": "null"
+        }
+      ],
+      "B6": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+      "B8": "8.1.0.6827",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "d167d5ec-d1e7-44d0-9967-a330842a0186",
+          "A2": "SONumber",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "L1": "325a73b8-0f47-44a0-8412-7606f78003ac",
+          "L8": {
+            "GS5": "d88bbd50-8d93-486e-a5d4-c4c2b4569371"
+          },
+          "L12": 0
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "3fddb3fe-316b-4c2c-b5c7-a0ca607428c4",
+          "A2": "Message",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "L1": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+          "L8": {
+            "GS5": "d88bbd50-8d93-486e-a5d4-c4c2b4569371"
+          },
+          "L12": 1
+        }
+      ],
+      "IJ1": true,
+      "BK8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+      "IJ10": true,
+      "BK15": [],
+      "BK37": {
+        "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+        "UId": "cdd58be7-2dba-4a5e-869b-1ad5d6d7513a",
+        "A2": "NotificationCaption",
+        "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+        "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+        "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+        "L8": {
+          "GS1": 3,
+          "GS2": "[#[PropertyValue:Caption]#]"
+        }
+      },
+      "BK1": "FFFFFFFF",
+      "BK2": "FFBBBBBB",
+      "BK3": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaLaneSet",
+          "UId": "720ade67-d54a-42c0-9ae3-094848c910eb",
+          "A2": "LaneSet1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "BM1": 0,
+          "BM4": [
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
+              "UId": "e9e89532-c3fe-4809-8a00-99f8e969aac7",
+              "A2": "Lane1",
+              "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+              "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+              "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+              "IL2": "720ade67-d54a-42c0-9ae3-094848c910eb",
+              "BL7": "abcd74b9-5912-414b-82ac-f1aa4dcd554e",
+              "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+              "CD1": [],
+              "CD2": [],
+              "CD4": "720ade67-d54a-42c0-9ae3-094848c910eb",
+              "CD7": []
+            }
+          ]
+        }
+      ],
+      "BK5": [],
+      "BK4": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaStartEvent",
+          "UId": "cd2eccab-ef49-49a4-9c7b-1bd1830d4fff",
+          "A2": "StartEvent1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "e9e89532-c3fe-4809-8a00-99f8e969aac7",
+          "BL3": "50;184",
+          "BL7": "53818048-7868-48f6-ada0-0ebaa65af628",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": [],
+          "ED1": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
+          "UId": "544e352c-055c-4f1c-b389-452e875e5592",
+          "A2": "TerminateEvent1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "e9e89532-c3fe-4809-8a00-99f8e969aac7",
+          "BL3": "666;184",
+          "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": []
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "eacfda70-6610-4de1-8c7b-8fb8fe2d12fe",
+          "A2": "ScriptTask1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "e9e89532-c3fe-4809-8a00-99f8e969aac7",
+          "BL3": "307;172",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "var userConnection = Get<UserConnection>(\"UserConnection\");\r\nvar log = new CustomLog(userConnection, $\"Auto_Activation_UpdatePostDelivery\");\r\nvar lineDetail = new LineDetail(UserConnection);\r\n\r\nstring soNumber = Get<string>(\"SONumber\");\r\nstring serialNumber = string.Empty;\r\nGuid submissionId = Guid.Empty;\r\nGuid dealerId = Guid.Empty;\r\nstring salesPersonEmail = string.Empty;\r\n\r\ntry {\r\n    List<LineDetail> lineDetails = GetLineDetail(userConnection, soNumber);\r\n    if(lineDetails.Count == 0) {\r\n        return true;\r\n    }\r\n\r\n    submissionId = lineDetails.FirstOrDefault().SubmissionId;\r\n    serialNumber = lineDetails.FirstOrDefault().SerialNumber;\r\n    dealerId = lineDetails.FirstOrDefault().Dealer?.Id ?? Guid.Empty;\r\n    salesPersonEmail = GetSalesPersonEmail(userConnection, dealerId);\r\n    string msisdnList = string.Join(\", \", lineDetails.Select(item => item.MSISDN).ToArray());\r\n\t\r\n    log.AddMessage($\"Auto Activation is Start. SO Nummber: {soNumber}. Submission Id: {submissionId}. Serial Number: {serialNumber}. MSISDN: {msisdnList}.\", true);\r\n\r\n    List<Guid> lineDetailIds = lineDetails.Select(item => item.Id).ToList();\r\n    foreach (Guid id in lineDetailIds) {\r\n        new Update(userConnection, \"DgLineDetail\")\r\n            .Set(\"DgReleased\", Column.Parameter(true))\r\n            .Set(\"DgReleasedDate\", Column.Parameter(DateTime.UtcNow))\r\n            .Set(\"DgReleasedById\", Column.Parameter(userConnection.CurrentUser.ContactId))\r\n        .Where(\"Id\").IsEqual(Column.Parameter(id))\r\n        .Execute();\r\n    }\r\n\r\n    var lineActivation = new LineActivation(userConnection, lineDetailIds);\r\n    var result = lineActivation.Activation().GetAwaiter().GetResult();\r\n    \r\n    string logMessage = result.Message;\r\n    string emailMessage = result.Message;\r\n    try {\r\n        var jsonMessage = JsonConvert.DeserializeObject<List<string>>(result.Message);\r\n        logMessage = string.Join(\r\n            Environment.NewLine, \r\n            jsonMessage\r\n                .Select(item => item\r\n                    .Replace(\"<br>\", Environment.NewLine)\r\n                    .Replace(\"<ul>\", \"\")\r\n                    .Replace(\"</ul>\", Environment.NewLine)\r\n                    .Replace(\"<li>\", \"=> \")\r\n                    .Replace(\"</li>\", Environment.NewLine)\r\n                )\r\n                .ToArray()\r\n        );\r\n        emailMessage = string.Join(\"<br><br>\", jsonMessage.ToArray());\r\n    } catch (Exception e) {}\r\n\r\n    if(!result.Success) {\r\n        log.AddMessage($\"There were several errors during the activation process\", true);\r\n        log.AddMessage($\"Error: {Environment.NewLine}{logMessage}\", true);\r\n        log.AddMessage($\"Send email error notification to {salesPersonEmail}\", true);\r\n        \r\n        SendEmail(userConnection, salesPersonEmail, serialNumber, soNumber, emailMessage);\r\n    } else {\r\n        log.AddMessage($\"Activation is success for all line selected\", true);\r\n    }\r\n\r\n    log.AddMessage($\"Auto Activation for {soNumber} finish\", true);\r\n} catch (Exception e) {\r\n    Set(\"Message\", e.ToString());\r\n    log.AddMessage($\"Auto Activation is Failed: {Environment.NewLine}{e.ToString()}\", true);\r\n\r\n    log.AddMessage($\"Send email error notification to {salesPersonEmail}\", true);\r\n    SendEmail(userConnection, salesPersonEmail, serialNumber, soNumber, e.ToString());\r\n} finally {\r\n    log.SaveToFile();\r\n}\r\n\r\nreturn true;",
+          "CH2": true
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "cf4b81ca-0753-4596-b277-0fa825b7a718",
+          "A2": "SequenceFlow1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "CI1": "cd2eccab-ef49-49a4-9c7b-1bd1830d4fff",
+          "CI2": "eacfda70-6610-4de1-8c7b-8fb8fe2d12fe",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "81;200",
+          "CI12": "307;200"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "feb370b7-2a58-4721-ab3d-6bf9d04916e4",
+          "A2": "DefaultSequenceFlow1",
+          "A3": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A4": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+          "CI1": "eacfda70-6610-4de1-8c7b-8fb8fe2d12fe",
+          "CI2": "544e352c-055c-4f1c-b389-452e875e5592",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "376;200",
+          "CI12": "666;200"
+        }
+      ],
+      "BK9": [],
+      "BK18": "Business Process",
+      "BK29": true,
+      "BK30": true,
+      "BK32": "public void SendEmail(UserConnection UserConnection, string SalespersonEmail, string SerialNumber, string SONumber, string ErrorMessage)\r\n{\r\n\tif(string.IsNullOrEmpty(SalespersonEmail)) {\r\n\t\treturn;\r\n\t}\r\n\t\r\n\tstring email = Terrasoft.Core.Configuration.SysSettings.GetValue<string>(UserConnection, \"DgEmailNotification_AutoActivationFailed\", string.Empty);\r\n    string message = $\"Hi,\"\r\n        + \"<br>Kindly rectify below error and perform manual provisioning for line activation. <br><br>\"\r\n        + ErrorMessage\r\n        + $\"<br><br>This message is auto-generated by NCCF.\";\r\n\r\n    var param = new MailParam() {\r\n        Subject = $\"NCCF error in auto provisioning during Order Simcard for {SerialNumber} | {SONumber}\",\r\n        Message = message,\r\n        To = SalespersonEmail,\r\n        CC = email,\r\n        DefaultFooterMessage = true\r\n    };\r\n\r\n    Mail.Send(UserConnection, \"nccf2-crm@celcomdigi.com\", param);\r\n}\r\n\r\npublic List<LineDetail> GetLineDetail(UserConnection UserConnection, string SONumber)\r\n{\r\n    var result = new List<LineDetail>();\r\n\r\n    var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, \"DgLineDetail\");\r\n    var columns = new Dictionary<string, EntitySchemaQueryColumn>();\r\n\r\n    columns.Add(\"Id\", esq.AddColumn(\"Id\"));\r\n    columns.Add(\"No\", esq.AddColumn(\"DgNo\"));\r\n    columns.Add(\"LineId\", esq.AddColumn(\"DgLineId\"));\r\n    columns.Add(\"MSISDN\", esq.AddColumn(\"DgMSISDN\"));\r\n    columns.Add(\"SubmissionId\", esq.AddColumn(\"DgSubmission.Id\"));\r\n    columns.Add(\"SerialNumber\", esq.AddColumn(\"DgSubmission.DgSerialNumber\"));\r\n    columns.Add(\"Dealer_Id\", esq.AddColumn(\"DgSubmission.DgCRMGroup.DgDealer.Id\"));\r\n\r\n    columns[\"No\"].OrderByAsc(0);\r\n    columns[\"LineId\"].OrderByAsc(1);\r\n\r\n    var filterActivation = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.Or);\r\n    filterActivation.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgActivationStatus\", LookupConst.ActivationStatus.NotActivated));\r\n    filterActivation.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgActivationStatus\", LookupConst.ActivationStatus.Fail));\r\n    filterActivation.Add(esq.CreateFilterWithParameters(FilterComparisonType.IsNull, \"DgActivationStatus\"));\r\n    esq.Filters.Add(filterActivation);\r\n\r\n    var filterDeviceIMEI = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.And);\r\n    filterDeviceIMEI.Add(esq.CreateFilterWithParameters(FilterComparisonType.IsNotNull, \"DgDeviceIMEI\"));\r\n    filterDeviceIMEI.Add(esq.CreateFilterWithParameters(FilterComparisonType.NotEqual, \"DgDeviceIMEI\", string.Empty));\r\n\r\n    var filterSimCardSerialNo = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.And);\r\n    filterSimCardSerialNo.Add(esq.CreateFilterWithParameters(FilterComparisonType.IsNotNull, \"DgSIMCardNumber\"));\r\n    filterSimCardSerialNo.Add(esq.CreateFilterWithParameters(FilterComparisonType.NotEqual, \"DgSIMCardNumber\", string.Empty));\r\n\r\n    var filterIMEI = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.Or);\r\n    filterIMEI.Add(filterDeviceIMEI);\r\n    filterIMEI.Add(filterSimCardSerialNo);\r\n    esq.Filters.Add(filterIMEI);\r\n\r\n    var filterSODoId = new EntitySchemaQueryFilterCollection(esq, LogicalOperationStrict.And);\r\n    filterSODoId.Add(esq.CreateFilterWithParameters(FilterComparisonType.IsNotNull, \"DgSODoID\"));\r\n    filterSODoId.Add(esq.CreateFilterWithParameters(FilterComparisonType.NotEqual, \"DgSODoID\", string.Empty));\r\n    esq.Filters.Add(filterSODoId);\r\n\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgReleased\", false));\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgReleasedToIPL\", true));\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.IsNotNull, \"DgPreDeliveryDate\"));\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgDeliveryStatus.Id\", LookupConst.DeliveryStatus.InTransit));\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgSubmission.DgSubmissionType.Id\", LookupConst.SubmissionType.NEW));\r\n    esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, \"DgSOID\", SONumber));\r\n\r\n    var entities = esq.GetEntityCollection(UserConnection);\r\n    foreach(var entity in entities) {\r\n        var data = new LineDetail();\r\n        data.Id = entity.GetTypedColumnValue<Guid>(columns[\"Id\"].Name);\r\n        data.MSISDN = entity.GetTypedColumnValue<string>(columns[\"MSISDN\"].Name);\r\n        data.SubmissionId = entity.GetTypedColumnValue<Guid>(columns[\"SubmissionId\"].Name);\r\n        data.SerialNumber = entity.GetTypedColumnValue<string>(columns[\"SerialNumber\"].Name);\r\n        data.Dealer = new DgMasterData.Lookup() {\r\n            Id = entity.GetTypedColumnValue<Guid>(columns[\"Dealer_Id\"].Name)\r\n        };\r\n\r\n        result.Add(data);\r\n    }\r\n\r\n    return result;\r\n}\r\n\r\npublic string GetSalesPersonEmail(UserConnection UserConnection, Guid DealerId)\r\n{\r\n    var esq = new EntitySchemaQuery(UserConnection.EntitySchemaManager, \"DgDealer\");\r\n    var columns = new Dictionary<string, EntitySchemaQueryColumn>();\r\n\r\n    columns.Add(\"SalespersonEmail\", esq.AddColumn(\"DgSalesPersonEmail\"));\r\n\r\n    var entity = esq.GetEntity(UserConnection, DealerId);\r\n    \r\n    return entity.GetTypedColumnValue<string>(columns[\"SalespersonEmail\"].Name);\r\n}",
+      "BK34": "en-US",
+      "Labels": [],
+      "BK24": []
+    }
+  }
+}

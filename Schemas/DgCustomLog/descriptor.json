@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a86634ce-691f-4d1f-922a-7a7f27ed2a22",
+    "Name": "DgCustomLog",
+    "ModifiedOnUtc": "\/Date(1719461266000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Custom Log",
+    "DependsOn": []
+  }
+}

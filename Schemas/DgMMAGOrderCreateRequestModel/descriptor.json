@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "22e0d357-1080-46eb-b986-ad9a194d7c03",
+    "Name": "DgMMAGOrderCreateRequestModel",
+    "ModifiedOnUtc": "\/Date(1697438465000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "MMAG Order Create Request Model",
+    "DependsOn": []
+  }
+}

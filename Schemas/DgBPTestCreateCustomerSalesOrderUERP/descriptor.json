@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "977f2588-e1f0-42c8-b207-3d266e39eceb",
+    "Name": "DgBPTestCreateCustomerSalesOrderUERP",
+    "ModifiedOnUtc": "\/Date(1718348222000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Create Customer Sales Order UERP",
+    "DependsOn": []
+  }
+}

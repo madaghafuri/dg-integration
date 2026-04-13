@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "65153fa8-827e-4bf3-8f45-89a45cc333fb",
+    "Name": "DgBPSchedulerIMEICancelUERP",
+    "ModifiedOnUtc": "\/Date(1719488085000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Scheduler] IMEI Cancel UERP",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "915c03cb-8372-4f95-ab9f-ff6a8bba4ea5",
+    "Name": "DgIntegrationLogFile",
+    "ModifiedOnUtc": "\/Date(1684730472000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Integration Log attachment",
+    "DependsOn": []
+  }
+}

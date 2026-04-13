@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="RPA Log" />
+			<Item Name="Columns.DgDate.Caption" Value="Date" />
+			<Item Name="Columns.DgRPAType.Caption" Value="RPA Type" />
+			<Item Name="Columns.DgSerialNumber.Caption" Value="Serial Number" />
+		</Items>
+	</Group>
+</Resources>

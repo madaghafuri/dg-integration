@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "17e09e86-3258-47c4-be92-be7ad7ebc194",
+    "Name": "DgSecurityHeaderModel",
+    "ModifiedOnUtc": "\/Date(1715937405000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Security Header Model",
+    "DependsOn": []
+  }
+}

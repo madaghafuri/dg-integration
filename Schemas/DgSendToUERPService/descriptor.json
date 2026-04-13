@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8880105a-1716-40d2-8a23-6264368a5644",
+    "Name": "DgSendToUERPService",
+    "ModifiedOnUtc": "\/Date(1721016508000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Send To UERP Service",
+    "DependsOn": []
+  }
+}

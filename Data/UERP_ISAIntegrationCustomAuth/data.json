@@ -1,0 +1,151 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "02dd79bb-e2f5-4ddd-a224-aeb32afafba7"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SFTPPassword"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "P@ssw0rd123098"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4b1145b1-e410-4388-8aa9-9ebbff987b26"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SFTPHost"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "10.88.3.36"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "6ad3e034-da9c-4b9e-9a7a-15bbacb9d0c8"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SFTPSource"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "/data/UERP/3PP/NCCF/Outbound"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9a0f6531-2106-4a45-a795-a4930dbe134a"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "IMEICancel_SearchPattern"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "ERP_NCCF_OM_IMEI_"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c7d88de3-d498-4cef-ab2c-c96afa32a9c7"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SOCancel_SearchPattern"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "ERP_NCCF_OM_CANCELLATION_"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e8cb9712-68c3-4b62-a565-faa14815f4bc"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SFTPSaveDirectory"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "C:\\_Projects\\UPLOAD_FILES\\UERP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f6f6d00d-62a9-4522-8344-bf36e99ac012"
+        },
+        {
+          "SchemaColumnUId": "129b0dd6-a222-e356-2b34-fca0cfd72930",
+          "Value": "SFTPUsername"
+        },
+        {
+          "SchemaColumnUId": "9aba8969-16bd-c4b9-c1d8-a009e27f4897",
+          "Value": "6ef6f6eb-973a-480f-b01a-6c024fdd43f8",
+          "DisplayValue": "UERP: Staging"
+        },
+        {
+          "SchemaColumnUId": "a22f6c84-283b-e712-c46d-158f3bfda4cb",
+          "Value": "sftp_nccf_uerp"
+        }
+      ]
+    }
+  ]
+}

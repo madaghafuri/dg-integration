@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "37e60f4a-b128-4f9d-87f3-891f1bc265ee",
+    "Name": "DgIntegrationLogFolder",
+    "ModifiedOnUtc": "\/Date(1684730474000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Integration Log folder",
+    "DependsOn": []
+  }
+}

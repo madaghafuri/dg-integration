@@ -1,0 +1,166 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "18f72673-99b9-4e79-a594-356d4b873014"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "c5d68354-c982-4cc3-8634-19ce76049906",
+          "DisplayValue": "SFTP: Email Notification"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2e0d960c-8d65-4be2-936e-d3e4c61467d7"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "fccb6475-16a1-4ccd-a93a-3c86fac391a7",
+          "DisplayValue": "SFTP: Email API Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "3825016e-b799-47d6-9dd6-7a2be603d529"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "d86ccbb9-da5f-4bb8-9a85-9a4b9ef3a692",
+          "DisplayValue": "SFTP: Local Path"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "38a5ea52-d886-4a10-b756-c5ff0121406e"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "77f32d8a-3a19-40b2-91ce-b79d052751e6",
+          "DisplayValue": "SFTP: Password"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "84c97671-f102-430a-8dff-46aca8b569f1"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "f0122753-2779-4333-9cce-0e6d57e6f23a",
+          "DisplayValue": "SFTP: Email API Url"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "b72bb1bb-eeeb-4d61-a9b1-f65d57b440ef"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "e3754914-c848-4856-908a-21af48eb2830",
+          "DisplayValue": "SFTP: Host"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c27292ae-9e11-4189-9302-647f14ddd739"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "18d4d2bd-15a4-44d7-9391-73bc35a2c89e",
+          "DisplayValue": "SFTP: Apple Path"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "d86a9a81-a62d-4a94-8f96-c675ebb38c18"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "93efedfe-e5c4-40f7-b5f6-b86ad4d9ac77",
+          "DisplayValue": "SFTP: Apple Archive Path"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "df0093a2-6e1d-43ef-8146-5f6370699708"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "c331a088-5ea9-4b90-979a-3333b43646f9",
+          "DisplayValue": "SFTP: Username"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6a9200f7-0551-405c-8e53-e28bf3f7e75e",
+          "DisplayValue": "SFTP"
+        }
+      ]
+    }
+  ]
+}

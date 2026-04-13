@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "084fe550-d27e-4252-ab22-c3c679210521",
+    "Name": "DgEnrollDeviceRequestModel",
+    "ModifiedOnUtc": "\/Date(1720498689000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Enroll Device Request Model",
+    "DependsOn": []
+  }
+}

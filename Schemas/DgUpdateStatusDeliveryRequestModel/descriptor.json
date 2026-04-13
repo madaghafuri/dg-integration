@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6d8b8591-31dc-4e70-b643-c71cce41ca8c",
+    "Name": "DgUpdateStatusDeliveryRequestModel",
+    "ModifiedOnUtc": "\/Date(1721289638000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Status Delivery Request Model",
+    "DependsOn": []
+  }
+}

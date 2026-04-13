@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f8c42c6-524a-468f-87fb-c54a473aad76",
+    "Name": "DgEIRAService",
+    "ModifiedOnUtc": "\/Date(1726816653000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "EIRA Service",
+    "DependsOn": []
+  }
+}

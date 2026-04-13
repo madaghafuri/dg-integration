@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a732f88c-fa88-42d6-a41b-cd6d2c04b1f6",
+    "Name": "DgBPAutoUnreserveProcess",
+    "ModifiedOnUtc": "\/Date(1736322284000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Common Inventory - Auto Unreserve after callback UERP",
+    "DependsOn": []
+  }
+}

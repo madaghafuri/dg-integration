@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Authentication" />
+			<Item Name="ServiceMethods.DgAuthentication.Caption" Value="Authentication" />
+			<Item Name="ServiceMethods.DgAuthentication.Request.Parameters.DgUserName.Caption" Value="UserName" />
+			<Item Name="ServiceMethods.DgAuthentication.Request.Parameters.DgUserPassword.Caption" Value="UserPassword" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgASPXAUTH.Caption" Value=".ASPXAUTH" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgBPMCSRF.Caption" Value="BPMCSRF" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgBPMLOADER.Caption" Value="BPMLOADER" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgCode.Caption" Value="Code" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgException.Caption" Value="Exception" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgMessage.Caption" Value="Message" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgPCUrl.Caption" Value="PasswordChangeUrl" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgRUrl.Caption" Value="RedirectUrl" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgSsoSessionId.Caption" Value="SsoSessionId" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgUserName.Caption" Value="UserName" />
+			<Item Name="ServiceMethods.DgAuthentication.Response.Parameters.DgUType.Caption" Value="UserType" />
+		</Items>
+	</Group>
+</Resources>

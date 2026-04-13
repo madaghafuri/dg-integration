@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cfe6f9be-56df-4033-ae3b-f4f73439171c",
+    "Name": "DgECRAService",
+    "ModifiedOnUtc": "\/Date(1727773510000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "ECRA Service",
+    "DependsOn": []
+  }
+}

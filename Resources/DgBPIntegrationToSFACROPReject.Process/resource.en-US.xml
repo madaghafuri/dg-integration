@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="Set Type" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Set Type" />
+			<Item Name="BaseElements.FormulaTask3.Caption" Value="Set Submission" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="Set Submission" />
+			<Item Name="BaseElements.ScriptTask1.Caption" Value="Script" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Start CR" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
+			<Item Name="BaseElements.StartSignal2.Caption" Value="Start OP" />
+			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Unique identifier of record" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Send CR Email" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompanyName.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.SubProcess1.Parameters.DealerCode.Caption" Value="DealerCode" />
+			<Item Name="BaseElements.SubProcess1.Parameters.DealerEmail.Caption" Value="Dealer Email" />
+			<Item Name="BaseElements.SubProcess1.Parameters.EmailFrom.Caption" Value="Email From" />
+			<Item Name="BaseElements.SubProcess1.Parameters.IsCR.Caption" Value="Is CR" />
+			<Item Name="BaseElements.SubProcess1.Parameters.IsCR.DisplayValue" Value="[#Boolean value.True#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OperatorEmail.Caption" Value="Operator Email" />
+			<Item Name="BaseElements.SubProcess1.Parameters.Remark.Caption" Value="Remark" />
+			<Item Name="BaseElements.SubProcess1.Parameters.Salesperson.Caption" Value="Salesperson" />
+			<Item Name="BaseElements.SubProcess1.Parameters.SerialNumber.Caption" Value="SerialNumber" />
+			<Item Name="BaseElements.SubProcess1.Parameters.Status.Caption" Value="Status" />
+			<Item Name="BaseElements.SubProcess1.Parameters.StatusId.Caption" Value="StatusId" />
+			<Item Name="BaseElements.SubProcess1.Parameters.SubmissionId.Caption" Value="SubmissionId" />
+			<Item Name="BaseElements.SubProcess1.Parameters.SubmissionId.DisplayValue" Value="[#Start CR.Unique identifier of record#]" />
+			<Item Name="BaseElements.SubProcess2.Caption" Value="Send OP Email" />
+			<Item Name="BaseElements.SubProcess2.Parameters.CompanyName.Caption" Value="CompanyName" />
+			<Item Name="BaseElements.SubProcess2.Parameters.DealerCode.Caption" Value="DealerCode" />
+			<Item Name="BaseElements.SubProcess2.Parameters.DealerEmail.Caption" Value="Dealer Email" />
+			<Item Name="BaseElements.SubProcess2.Parameters.EmailFrom.Caption" Value="Email From" />
+			<Item Name="BaseElements.SubProcess2.Parameters.IsCR.Caption" Value="Is CR" />
+			<Item Name="BaseElements.SubProcess2.Parameters.IsCR.DisplayValue" Value="[#Boolean value.False#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OperatorEmail.Caption" Value="Operator Email" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Remark.Caption" Value="Remark" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Salesperson.Caption" Value="Salesperson" />
+			<Item Name="BaseElements.SubProcess2.Parameters.SerialNumber.Caption" Value="SerialNumber" />
+			<Item Name="BaseElements.SubProcess2.Parameters.Status.Caption" Value="Status" />
+			<Item Name="BaseElements.SubProcess2.Parameters.StatusId.Caption" Value="StatusId" />
+			<Item Name="BaseElements.SubProcess2.Parameters.SubmissionId.Caption" Value="SubmissionId" />
+			<Item Name="BaseElements.SubProcess2.Parameters.SubmissionId.DisplayValue" Value="[#Start OP.Unique identifier of record#]" />
+			<Item Name="BaseElements.TerminateEvent1.Caption" Value="End" />
+			<Item Name="Caption" Value="Integration To SFA CR Reject " />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.SubmissionId.Caption" Value="SubmissionId" />
+			<Item Name="Parameters.Type.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

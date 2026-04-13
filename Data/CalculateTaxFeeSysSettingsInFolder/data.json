@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "3e2ecba8-6f46-43ab-9884-c3c76446851e"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "9b3cbf0b-3b39-4360-a6c7-614a7f91ac13",
+          "DisplayValue": "Calculate Tax Fee: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "92789822-edbb-40b6-b274-4674c515d161",
+          "DisplayValue": "Calculate Tax Fee Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "cad34482-6770-4f7a-81e3-7dadeb64ee6c"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "7a239631-3216-4929-bcaf-5cbf3e303a7e",
+          "DisplayValue": "Calculate Tax Fee: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "92789822-edbb-40b6-b274-4674c515d161",
+          "DisplayValue": "Calculate Tax Fee Integration"
+        }
+      ]
+    }
+  ]
+}

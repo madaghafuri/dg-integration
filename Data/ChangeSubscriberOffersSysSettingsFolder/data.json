@@ -1,0 +1,30 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "19727fee-cf70-416f-8529-8ae064d3972b"
+        },
+        {
+          "SchemaColumnUId": "4d5be702-fa8a-4b6b-97d0-f666b99f108e",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "527b9e4e-7dbf-4721-a112-72b423b3365a",
+          "Value": "18700b9f-2b76-49d8-9e5d-3512e2d14474",
+          "DisplayValue": "NCCF 2.0 Integration"
+        },
+        {
+          "SchemaColumnUId": "7194c633-a5a9-48cf-a96c-d8b548878b2f",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "e44c8807-bc0e-4415-b41c-2272c8fbdf42",
+          "Value": "9dc5f6e6-2a61-4de8-a059-de30f4e74f24",
+          "DisplayValue": "Static"
+        }
+      ]
+    }
+  ]
+}

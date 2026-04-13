@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d88bbd50-8d93-486e-a5d4-c4c2b4569371",
+    "Name": "DgBPAutoActivationFromDeliveryStatus",
+    "ModifiedOnUtc": "\/Date(1728551217000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Activation from Delivery Status",
+    "DependsOn": []
+  }
+}

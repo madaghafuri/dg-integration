@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="UERP Create Customer Sales Order Response Web Service" />
+		</Items>
+	</Group>
+</Resources>

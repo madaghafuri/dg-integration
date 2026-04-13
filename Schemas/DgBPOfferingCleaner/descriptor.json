@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c85d3fc1-1f61-4ef5-a74e-296301bcc6db",
+    "Name": "DgBPOfferingCleaner",
+    "ModifiedOnUtc": "\/Date(1721209740000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Offering Cleaner",
+    "DependsOn": []
+  }
+}

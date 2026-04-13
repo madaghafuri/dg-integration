@@ -1,0 +1,76 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "3f33b0ba-de48-4992-80a1-67cefb30ac47"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "c5ce4b3c-07d1-47bc-b81e-32fb692e705b",
+          "DisplayValue": "Order Fees: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "952151e7-d65e-43b5-b3c1-59163ff95f04",
+          "DisplayValue": "Order Fees Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "43c6384d-7454-48b3-822c-139c173cd1f3"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "be4f96a4-c136-4262-8458-29c2c5fdb805",
+          "DisplayValue": "Order Fees: Password"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "952151e7-d65e-43b5-b3c1-59163ff95f04",
+          "DisplayValue": "Order Fees Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "63f27da7-fd83-4f83-a5c6-9450bd22d88d"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "5c55ab66-2f58-4b37-8db1-2ccac396fe73",
+          "DisplayValue": "Order Fees: Username"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "952151e7-d65e-43b5-b3c1-59163ff95f04",
+          "DisplayValue": "Order Fees Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9db61f83-5a6b-49a5-ac6b-b68b5b846c0a"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "7e288f4f-4f54-43b2-a7b5-e20a3bb93de3",
+          "DisplayValue": "Order Fees: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "952151e7-d65e-43b5-b3c1-59163ff95f04",
+          "DisplayValue": "Order Fees Integration"
+        }
+      ]
+    }
+  ]
+}

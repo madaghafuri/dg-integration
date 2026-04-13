@@ -1,0 +1,86 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7ec7855e-5138-464e-84ce-37a2bba549fd"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "c20a4484-9b48-45b8-a028-8f3bb47496a9",
+          "DisplayValue": "SCMS: Staging"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "SCMSDealer"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "SCMS/service.asmx/GetDealerInfoByDealerCodeNS"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9f095539-bd76-49df-b4aa-344783255a4c"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "a6b444e7-867f-4c25-be16-d65938b76eec",
+          "DisplayValue": "SCMS: Production"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "SCMSDealer"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "SCMS/service.asmx/GetDealerInfoByDealerCodeNS"
+        }
+      ]
+    }
+  ]
+}

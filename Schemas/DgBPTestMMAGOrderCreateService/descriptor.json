@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ae959961-998e-4530-aec7-89e797d770d9",
+    "Name": "DgBPTestMMAGOrderCreateService",
+    "ModifiedOnUtc": "\/Date(1718266497000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] MMAG Order Create Service",
+    "DependsOn": []
+  }
+}

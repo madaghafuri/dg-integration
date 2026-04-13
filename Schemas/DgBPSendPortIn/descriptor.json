@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7fac2b61-cec4-452f-aaac-8eb8cc2b0076",
+    "Name": "DgBPSendPortIn",
+    "ModifiedOnUtc": "\/Date(1728551314000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Send Port In",
+    "DependsOn": []
+  }
+}

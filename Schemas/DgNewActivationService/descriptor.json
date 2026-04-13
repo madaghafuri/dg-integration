@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "66fb2aba-3666-40bf-97db-3a1c7317c5a7",
+    "Name": "DgNewActivationService",
+    "ModifiedOnUtc": "\/Date(1725606331000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "New Activation Service",
+    "DependsOn": []
+  }
+}

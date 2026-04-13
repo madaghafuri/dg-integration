@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "30a3fed2-53c6-4a5a-be0d-a65effe331a2",
+    "Name": "DgGetSubmission",
+    "ModifiedOnUtc": "\/Date(1690537535000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Get Submission",
+    "DependsOn": []
+  }
+}

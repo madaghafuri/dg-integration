@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Get Submission In Order" />
+			<Item Name="ServiceMethods.DgGetSubmission.Caption" Value="Get Submission" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgAccept.Caption" Value="Accept" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgASPXAUTH.Caption" Value=".ASPXAUTH" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgBPMCSRF.Caption" Value="BPMCSRF" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgBPMLOADER.Caption" Value="BPMLOADER" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgBPMSESSIONID.Caption" Value="BPMSESSIONID" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgForceUseSession.Caption" Value="ForceUseSession" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgPContentType.Caption" Value="Content-Type" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgSsoSessionId.Caption" Value="SsoSessionId" />
+			<Item Name="ServiceMethods.DgGetSubmission.Request.Parameters.DgUserName.Caption" Value="UserName" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.Caption" Value="Parameter" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgAName.Caption" Value="Administration1Name" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgAName1.Caption" Value="Administration2Name" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgAName2.Caption" Value="Authorized1Name" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgAName3.Caption" Value="Authorized2Name" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgCBy.Caption" Value="CreatedBy" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgCEDate.Caption" Value="CardExpiredDate" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgCity.Caption" Value="City" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgCName.Caption" Value="CompanyName" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgCountry.Caption" Value="Country" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgDAddress.Caption" Value="DeliveryAddress" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgFL.Caption" Value="FL" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgINo.Caption" Value="IdNo" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgIType.Caption" Value="IdType" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgLine.Caption" Value="Line" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgMPAdministration.Caption" Value="MobilePhoneAdministration1" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgMPAdministration1.Caption" Value="MobilePhoneAdministration2" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgOTNAdministration.Caption" Value="OfficeTelNoAdministration1" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgOTNAdministration1.Caption" Value="OfficeTelNoAdministration2" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgPostcode.Caption" Value="Postcode" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgRegion.Caption" Value="Region" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgSNumber.Caption" Value="SerialNumber" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgSource.Caption" Value="Source" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgStatus.Caption" Value="Status" />
+			<Item Name="ServiceMethods.DgGetSubmission.Response.Parameters.DgParameter.ItemProperties.DgType.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

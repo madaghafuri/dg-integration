@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d25828aa-a1fd-4e1f-bf13-de21596e80db",
+    "Name": "DgBPSendEmailUpdateDO",
+    "ModifiedOnUtc": "\/Date(1698749509000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "BP Send Email Update DO",
+    "DependsOn": []
+  }
+}

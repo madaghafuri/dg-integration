@@ -1,0 +1,76 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "0d03d472-5305-4a0c-9eee-efc1518c167d"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "f2744600-9c2b-4429-acbd-ef561d4e72c0",
+          "DisplayValue": "Create Customer Sales Order UERP: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "541af057-25a2-4e43-ad3d-a2eedd0517a6",
+          "DisplayValue": "UERP Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1de9e890-d497-4e63-8930-41dfa67c1950"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "1bf6d6e4-50ab-47a4-a29c-3c6955bc31a2",
+          "DisplayValue": "Create Customer Sales Order UERP: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "541af057-25a2-4e43-ad3d-a2eedd0517a6",
+          "DisplayValue": "UERP Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "68f15749-9019-4981-9c00-cada096e90f8"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "3a4a42ee-be61-4ce5-90f1-fd14b06f38e1",
+          "DisplayValue": "Create Customer Sales Order UERP: Username"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "541af057-25a2-4e43-ad3d-a2eedd0517a6",
+          "DisplayValue": "UERP Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c71aee72-e02d-4884-bba3-eb64514690d7"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "d703978f-deee-430c-9942-972687c55d92",
+          "DisplayValue": "Create Customer Sales Order UERP: Password"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "541af057-25a2-4e43-ad3d-a2eedd0517a6",
+          "DisplayValue": "UERP Integration"
+        }
+      ]
+    }
+  ]
+}

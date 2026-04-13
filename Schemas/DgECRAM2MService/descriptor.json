@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "71e15665-2d87-4539-8b56-59a2d6a06958",
+    "Name": "DgECRAM2MService",
+    "ModifiedOnUtc": "\/Date(1713322104000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "ECRA M2M Service",
+    "DependsOn": []
+  }
+}

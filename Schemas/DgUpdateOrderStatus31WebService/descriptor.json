@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "71f4d03d-0af2-430e-b8ed-3d261a2595c0",
+    "Name": "DgUpdateOrderStatus31WebService",
+    "ModifiedOnUtc": "\/Date(1716881428000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Update Order Status 31 Web Service: Callback From CSG",
+    "DependsOn": []
+  }
+}

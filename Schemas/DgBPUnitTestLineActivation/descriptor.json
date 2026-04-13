@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "161a4261-86f6-4bdb-800b-76a2c7307cd7",
+    "Name": "DgBPUnitTestLineActivation",
+    "ModifiedOnUtc": "\/Date(1715051498000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Unit Test] Line Activation",
+    "DependsOn": []
+  }
+}

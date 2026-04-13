@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+    "Name": "DgBPAutoUpdateGroupNo",
+    "ModifiedOnUtc": "\/Date(1728658361000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Update CRM Group No",
+    "DependsOn": []
+  }
+}

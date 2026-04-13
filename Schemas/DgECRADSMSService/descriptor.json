@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c37e8d61-2abd-4a55-94ea-3f613baf5f23",
+    "Name": "DgECRADSMSService",
+    "ModifiedOnUtc": "\/Date(1713324623000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "ECRA DSMS Service",
+    "DependsOn": []
+  }
+}

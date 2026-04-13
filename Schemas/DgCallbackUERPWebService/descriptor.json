@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cbc7bf7c-47a1-4d15-948c-893559912c1a",
+    "Name": "DgCallbackUERPWebService",
+    "ModifiedOnUtc": "\/Date(1722509398000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Callback UERP Web Service",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3b25f3a5-f4fe-4100-9b67-fcc3540b5bc3",
+    "Name": "DgGetAccountResponseModel",
+    "ModifiedOnUtc": "\/Date(1698729079000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Get Account Response Model",
+    "DependsOn": []
+  }
+}

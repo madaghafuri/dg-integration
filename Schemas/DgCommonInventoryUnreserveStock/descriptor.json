@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e8a4383e-a707-4015-9224-486c161ce2cc",
+    "Name": "DgCommonInventoryUnreserveStock",
+    "ModifiedOnUtc": "\/Date(1724642270000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Common Inventory Unreserve Stock",
+    "DependsOn": []
+  }
+}

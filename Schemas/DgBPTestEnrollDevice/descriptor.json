@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8325a4b7-9cf0-4aa4-94da-2326ed9d08e7",
+    "Name": "DgBPTestEnrollDevice",
+    "ModifiedOnUtc": "\/Date(1708672365000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Enroll Device",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e23d63c8-552d-4cc1-8697-b92624cbf34f",
+    "Name": "DgBPTestConfirmPortIn",
+    "ModifiedOnUtc": "\/Date(1716264220000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Confirm Port In",
+    "DependsOn": []
+  }
+}

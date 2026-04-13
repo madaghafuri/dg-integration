@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8e3d407e-e21d-4fb8-9b24-aef9acdd5801",
+    "Name": "DgIntegrationProcessLogDetail",
+    "ModifiedOnUtc": "\/Date(1692201063000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Integration Process Log Detail",
+    "DependsOn": []
+  }
+}

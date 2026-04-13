@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "eea92831-102b-4519-8ba3-b66840cd7f35",
+    "Name": "DgDealer1Page",
+    "ModifiedOnUtc": "\/Date(1698469547000)\/",
+    "Parent": {
+      "UId": "c14d04f7-11bf-47e5-94a8-475ef423eb77",
+      "Name": "DgDealer1Page"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Dealer\"",
+    "DependsOn": []
+  }
+}

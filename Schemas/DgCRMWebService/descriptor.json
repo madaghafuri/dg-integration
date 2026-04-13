@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "32754f86-31ee-4d6b-9fdd-58c1cb63a790",
+    "Name": "DgCRMWebService",
+    "ModifiedOnUtc": "\/Date(1721036579000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "CRM Web Service",
+    "DependsOn": []
+  }
+}

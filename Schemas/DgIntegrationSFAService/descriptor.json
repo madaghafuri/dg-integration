@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "928602e2-9afa-4864-a742-227ae18af2ed",
+    "Name": "DgIntegrationSFAService",
+    "ModifiedOnUtc": "\/Date(1708239664000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Integration SFA Service",
+    "DependsOn": []
+  }
+}

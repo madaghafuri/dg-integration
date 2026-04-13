@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "https://dev-digi.creatio.com",
+    "CreatedInVersion": "8.0.7.3864",
+    "Type": "Rest"
+  }
+}

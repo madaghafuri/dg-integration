@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5db94bc8-c4a0-4469-8cc1-861e532959f2",
+    "Name": "DgCalculateTaxFeeService",
+    "ModifiedOnUtc": "\/Date(1707297441000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Calculate Tax Fee Service",
+    "DependsOn": []
+  }
+}

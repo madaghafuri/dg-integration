@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b7054e69-3b74-44cb-a73c-5b37d8977086",
+    "Name": "DgTestCheckCustomerEligibility",
+    "ModifiedOnUtc": "\/Date(1741680461000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Check Customer Eligibility",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Integration Log&quot;" />
+			<Item Name="LocalizableStrings.DgSchemade2c53c1Detailbda9b3ecDetailCaptionOnPage.Value" Value="Integration Process Log Detail" />
+			<Item Name="LocalizableStrings.Tab02e27f96TabLabelTabCaption.Value" Value="Detail Integration" />
+		</Items>
+	</Group>
+</Resources>

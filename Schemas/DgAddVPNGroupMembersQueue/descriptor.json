@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "dbcc122e-60a0-4799-91c5-9e140d79ab2d",
+    "Name": "DgAddVPNGroupMembersQueue",
+    "ModifiedOnUtc": "\/Date(1722931931000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "AddVPNGroupMembers Queue",
+    "DependsOn": []
+  }
+}

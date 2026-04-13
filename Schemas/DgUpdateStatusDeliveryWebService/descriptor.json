@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "70903a4e-6e16-4922-9dd2-f78e68db44d4",
+    "Name": "DgUpdateStatusDeliveryWebService",
+    "ModifiedOnUtc": "\/Date(1721289811000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Callback MMAG: Update Status Delivery Web Service",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,328 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "176c852b-1d85-4a81-b9dd-3bf848206c03"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "a6a0b715-636f-416e-9d85-c9a0e5b71954",
+          "DisplayValue": "Email Notification: Error AddVPNGroupMember"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1bcb1090-4116-487b-9cc5-af5422142996"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "70a83e43-28d1-46fe-9390-94c8c5d0f21c",
+          "DisplayValue": "Email Notification: Error Activation Callback"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2993f722-b61d-4cc5-b0ad-d4add374c4eb"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "046eb6a5-6d35-4655-8d1a-cc409a85da52",
+          "DisplayValue": "Email Notification: Auto Activation Failed"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7e2e4040-ad54-41a1-af53-de42ba16ebb5"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "9d3281d5-e460-4ace-97f3-3495430d61a3",
+          "DisplayValue": "Email Notification: Create Delivery Order Failed"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e62a8537-55b8-4897-aa70-52e151260bca"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "247c79a3-2710-4af1-a371-0846fdb50445",
+          "DisplayValue": "Email Notification: Callback MMAG Failed"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f6b20b56-0ddc-4b79-9e23-77961ed076c1"
+        },
+        {
+          "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+          "Value": "6aeebb4a-9b5b-4ca6-9c9e-7b3bb4f7a68d",
+          "DisplayValue": "Email Notification: Error Port In"
+        },
+        {
+          "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+          "Value": "null"
+        },
+        {
+          "SchemaColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        },
+        {
+          "SchemaColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+          "Value": "ebom.xd@celcomdigi.com"
+        },
+        {
+          "SchemaColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+          "Value": 2147483647
+        },
+        {
+          "SchemaColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+          "Value": "null"
+        }
+      ]
+    }
+  ]
+}

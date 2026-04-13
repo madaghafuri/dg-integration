@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e93e4109-32dd-421d-bcae-27274ac1364c",
+    "Name": "DgBPTestCommonInventoryToken",
+    "ModifiedOnUtc": "\/Date(1724642151000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Common Inventory - Token",
+    "DependsOn": []
+  }
+}

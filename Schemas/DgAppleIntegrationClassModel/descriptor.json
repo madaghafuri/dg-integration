@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1bc23cc5-a0d2-4a26-90e6-bc16d3d993a5",
+    "Name": "DgAppleIntegrationClassModel",
+    "ModifiedOnUtc": "\/Date(1706692718000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Apple Integration Class Model",
+    "DependsOn": []
+  }
+}

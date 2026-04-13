@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7ec340e2-a999-405a-a6ee-b38bbc263c69",
+    "Name": "DgSubmitNewCorpCustomerOrder",
+    "ModifiedOnUtc": "\/Date(1694249153000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "SubmitNewCorpCustomerOrder",
+    "DependsOn": []
+  }
+}

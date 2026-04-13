@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0300b25d-bd79-41d9-91aa-d096fd7b1e73",
+    "Name": "DgBPTestUpdateOrderStatusCRM",
+    "ModifiedOnUtc": "\/Date(1715570973000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "[Test] Update Order Status (CRM Activation Callback)",
+    "DependsOn": []
+  }
+}

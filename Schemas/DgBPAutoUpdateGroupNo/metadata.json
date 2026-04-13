@@ -1,0 +1,232 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessSchemaManager",
+      "UId": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+      "A2": "DgBPAutoUpdateGroupNo",
+      "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+      "B1": [],
+      "B2": [],
+      "B3": [
+        {
+          "UId": "088e9e2b-710b-414c-8756-47675a1f94a8",
+          "A2": "System.Linq",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        },
+        {
+          "UId": "7d21eb81-8698-4d22-8eef-6ba8d6142977",
+          "A2": "System.Collections.Generic",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        },
+        {
+          "UId": "e0172c5b-ec29-411f-aa89-be1a73f1f3dc",
+          "A2": "System.Data",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        },
+        {
+          "UId": "f456bf17-aac2-45be-ad57-bd7cc2951cc1",
+          "A2": "DgCRMIntegration",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        },
+        {
+          "UId": "edd87070-d856-4222-b6a4-7babae38435c",
+          "A2": "System.Threading",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        },
+        {
+          "UId": "a4ffce4a-9c9c-43fd-a242-795df8f5fbec",
+          "A2": "DgBaseService.DgHelpers",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "fd792632-fb6f-4a4c-8bdd-0994320da03c",
+          "GF1": "null"
+        }
+      ],
+      "B6": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+      "B8": "8.0.9.1582",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "388176bb-7d62-4ebf-ab15-c5aaa0abb3c5",
+          "A2": "CRMGroupId",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "L1": "23018567-a13c-4320-8687-fd6f9e3699bd",
+          "L8": {
+            "GS5": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25"
+          },
+          "L12": 0
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "a7077c6a-1c9d-42ae-b285-64e2f6e835c3",
+          "A2": "Hierarcy",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "L1": "325a73b8-0f47-44a0-8412-7606f78003ac",
+          "L8": {
+            "GS5": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25"
+          },
+          "L12": 0
+        }
+      ],
+      "IJ1": true,
+      "BK8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+      "IJ10": true,
+      "BK15": [],
+      "BK37": {
+        "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+        "UId": "cdd58be7-2dba-4a5e-869b-1ad5d6d7513a",
+        "A2": "NotificationCaption",
+        "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+        "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+        "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+        "L8": {
+          "GS1": 3,
+          "GS2": "[#[PropertyValue:Caption]#]"
+        }
+      },
+      "BK1": "FFFFFFFF",
+      "BK2": "FFBBBBBB",
+      "BK3": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaLaneSet",
+          "UId": "d4201c5c-1fc0-4ad6-a515-c9e533e17819",
+          "A2": "LaneSet1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "BM1": 0,
+          "BM4": [
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
+              "UId": "51dbbe67-fe43-4946-a825-dbd8b9de110f",
+              "A2": "Lane1",
+              "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+              "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+              "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+              "IL2": "d4201c5c-1fc0-4ad6-a515-c9e533e17819",
+              "BL7": "abcd74b9-5912-414b-82ac-f1aa4dcd554e",
+              "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+              "CD1": [],
+              "CD2": [],
+              "CD4": "d4201c5c-1fc0-4ad6-a515-c9e533e17819",
+              "CD7": []
+            }
+          ]
+        }
+      ],
+      "BK5": [],
+      "BK4": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaStartEvent",
+          "UId": "c037d988-b552-4694-84e1-3a8a3e975d70",
+          "A2": "StartEvent1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "51dbbe67-fe43-4946-a825-dbd8b9de110f",
+          "BL3": "50;184",
+          "BL7": "53818048-7868-48f6-ada0-0ebaa65af628",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": [],
+          "ED1": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
+          "UId": "459f1b7b-a78f-406d-b559-383ec073cc8a",
+          "A2": "TerminateEvent1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "51dbbe67-fe43-4946-a825-dbd8b9de110f",
+          "BL3": "647;184",
+          "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "BN2": "31;31",
+          "BO3": true,
+          "FC1": []
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "1604cfdd-de38-41fe-a200-21660c0b760f",
+          "A2": "ScriptTask1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "IL2": "51dbbe67-fe43-4946-a825-dbd8b9de110f",
+          "BL3": "328;172",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "var UserConnection = Get<UserConnection>(\"UserConnection\");\r\nGuid crmGroupId = Get<Guid>(\"CRMGroupId\");\r\nstring hierarchy = Get<string>(\"Hierarcy\");\r\n\r\nvar log = new CustomLog(UserConnection, $\"Auto_Update_GroupNo_{crmGroupId}_{hierarchy}\");\r\n\r\nbool isSuccess = false;\r\nint i = 0;\r\nint delay = 1000 * 45; // 1 minutes --> 45s\r\nbool isSaveCustomerId = false;\r\nbool isSaveAccountId = false;\r\nbool isSaveGroupNo = false;\r\nstring customerId = string.Empty;\r\n\r\nvar crmService = new CRMService(UserConnection);\r\n\r\nwhile (!isSuccess) {\r\n    if(i > 5) {\r\n        break;\r\n    }\r\n\r\n    Thread.Sleep(delay);\r\n    \r\n    log.AddMessage(\"Auto Update start...\", true);\r\n    log.AddMessage($\"Attempt {i+1}\", true);\r\n    \r\n    try {\r\n    \tif(!isSaveCustomerId) {\r\n    \t\tlog.AddMessage(\"Request Get Customer\", true);\r\n    \t\t\r\n            var customers = crmService.GetCustomersByCRMGroup(crmGroupId).GetAwaiter().GetResult();\r\n            if(customers == null) {\r\n                throw new Exception(\"Get Customer not found\");\r\n            }\r\n\r\n            var customer = customers\r\n                .Where(item => item.corporationInfo.hierarchy == hierarchy)\r\n                .FirstOrDefault();\r\n            customerId = customer.customerId;\r\n            string customerCode = customer.customerCode;\r\n            string corpNumber = customer.corporationInfo.corpNumber;\r\n\r\n            new Update(UserConnection, \"DgCRMGroup\")\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentCustomerId\" : \"DgParentCustomerId\", Column.Parameter(customerId))\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentCustomerCode\" : \"DgCustomerCode\", Column.Parameter(customerCode))\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentCorporateNumber\" : \"DgCorporateNumber\", Column.Parameter(corpNumber))\r\n                .Where(\"Id\").IsEqual(Column.Parameter(crmGroupId))\r\n            .Execute();\r\n            isSaveCustomerId = true;\r\n            \r\n            log.AddMessage(\"Customer found and update customerId, customerCode, corpNumber\", true);\r\n        }\r\n    } catch(Exception e) {\r\n    \tlog.AddMessage($\"Response Get Customer: \\n{e.Message}\", true);\r\n    }\r\n    \r\n\ttry {\r\n\t\tif(!isSaveAccountId && !string.IsNullOrEmpty(customerId)) {\r\n\t\t\tlog.AddMessage(\"Request Get Account\", true);\r\n\t\t\t\r\n            var accounts = crmService.GetAccountsByCustomerId(customerId).GetAwaiter().GetResult();\r\n            if(accounts == null) {\r\n                throw new Exception(\"Get Account not found\");\r\n            }\r\n\r\n            var account = accounts.FirstOrDefault();\r\n            string accountId = account.accountId;\r\n            string accountCode = account.accountCode;\r\n            string billcycleType = account.billcycleType;\r\n            string paymentId = account.paymentModeInfo.paymentId;\r\n\r\n            var updateAccountInfo = new Update(UserConnection, \"DgCRMGroup\")\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentAccountId\" : \"DgAccountId\", Column.Parameter(accountId))\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentAccountCode\" : \"DgAccountCode\", Column.Parameter(accountCode))\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentPaymentId\" : \"DgPaymentId\", Column.Parameter(paymentId));\r\n                \r\n            if(hierarchy == \"2\") {\r\n            \tvar select = new Select(UserConnection)\r\n\t\t\t\t    .Column(\"Id\").As(\"Id\")\r\n\t\t\t\t.From(\"DgSubmission\")\r\n\t\t\t\t.Where(\"DgCRMGroupId\").IsEqual(Column.Parameter(crmGroupId))\r\n\t\t\t\t.And(\"DgSubmissionTypeId\").IsEqual(Column.Parameter(Guid.Parse(\"1cf9b17c-9085-4646-b499-53cdf15156b2\"))) as Select;\r\n\t\t\t\t\r\n\t\t\t\tusing (DBExecutor dbExecutor = UserConnection.EnsureDBConnection()) \r\n\t\t\t\t{\r\n\t\t\t\t    using (IDataReader dataReader = select.ExecuteReader(dbExecutor))\r\n\t\t\t\t    {\r\n\t\t\t\t        while (dataReader.Read()) \r\n\t\t\t\t        {\r\n\t\t\t\t            var submissionId = dataReader.GetColumnValue(\"Id\") != null ? \r\n\t\t\t\t                Guid.Parse(dataReader.GetColumnValue(\"Id\").ToString()) : Guid.Empty;\r\n\t\t\t\t                \r\n\t\t\t\t            new Update(UserConnection, \"DgLineDetail\")\r\n\t\t\t\t                .Set(\"DgDNOAccNo\", Column.Parameter(accountCode))\r\n\t\t\t\t                .Where(\"DgSubmissionId\").IsEqual(Column.Parameter(submissionId))\r\n\t\t\t\t            .Execute();\r\n\t\t\t\t        }\r\n\t\t\t\t    }\r\n\t\t\t\t}\r\n            }\r\n\r\n            if(hierarchy == \"1\") {\r\n                updateAccountInfo\r\n                    .Set(\"DgBillingCycle\", Column.Parameter(billcycleType));\r\n            }\r\n            \r\n            updateAccountInfo\r\n                .Where(\"Id\").IsEqual(Column.Parameter(crmGroupId))\r\n                .Execute();\r\n            isSaveAccountId = true;\r\n            \r\n            log.AddMessage(\"Account found and update accountId, accountCode, paymentId, billcycleType\", true);\r\n        }\r\n\t} catch(Exception e) {\r\n\t\tlog.AddMessage($\"Response Get Account: \\n{e.Message}\", true);\r\n\t}\r\n\r\n\ttry {\r\n\t\tif(!isSaveGroupNo && !string.IsNullOrEmpty(customerId)) {\r\n            var queryVPNs = crmService.QueryVPNGroupSubscriberByCustomerId(customerId).GetAwaiter().GetResult();\r\n            if(queryVPNs == null) {\r\n                throw new Exception(\"Query VPN Group Subscriber not found\");\r\n            }\r\n\r\n            var queryVPN = queryVPNs.FirstOrDefault();\r\n            string groupNumber = queryVPN.groupNumber ?? string.Empty;\r\n            string groupId = queryVPN.groupId ?? string.Empty;\r\n            if(string.IsNullOrEmpty(groupNumber) || string.IsNullOrEmpty(groupId)) {\r\n                throw new Exception(\"Group Id is empty\");\r\n            }\r\n\r\n            new Update(UserConnection, \"DgCRMGroup\")\r\n                .Set(hierarchy == \"2\" ? \"DgGroupSubParentNo\" : \"DgGroupNo\", Column.Parameter(groupNumber))\r\n                .Set(hierarchy == \"2\" ? \"DgSubParentGroupID\" : \"DgGroupID\", Column.Parameter(groupId))\r\n                .Where(\"Id\").IsEqual(Column.Parameter(crmGroupId))\r\n            .Execute();\r\n\r\n            isSuccess = true;\r\n            isSaveGroupNo = true;\r\n            \r\n            log.AddMessage(\"Query VPN Group Subscibers found and update groupNo, groupId\", true);\r\n        }\r\n\t} catch(Exception e) {\r\n\t\tlog.AddMessage($\"Response Query VPN Group Subscibers: \\n{e.Message}\", true);\r\n\t}\r\n\t\r\n\ti++;\r\n}\r\n\r\nlog.SaveToFile();\r\n\r\nreturn true;",
+          "CH2": true
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "2aaaea46-09c8-4f90-bc94-92819b3b6262",
+          "A2": "SequenceFlow1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "CI1": "c037d988-b552-4694-84e1-3a8a3e975d70",
+          "CI2": "1604cfdd-de38-41fe-a200-21660c0b760f",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "81;200",
+          "CI12": "328;200"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "762bcace-a6b1-47cc-a0c0-9481d23346d9",
+          "A2": "DefaultSequenceFlow1",
+          "A3": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A4": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "A5": "2281e778-26e3-cca1-d236-45d9d8eada4e",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "2aa99ae3-b8b6-4283-a884-b37ae80ffa25",
+          "CI1": "1604cfdd-de38-41fe-a200-21660c0b760f",
+          "CI2": "459f1b7b-a78f-406d-b559-383ec073cc8a",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "397;200",
+          "CI12": "647;200"
+        }
+      ],
+      "BK9": [],
+      "BK18": "Business Process",
+      "BK29": true,
+      "BK30": true,
+      "BK34": "null",
+      "Labels": [],
+      "BK24": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2722ffa4-7ea7-4cd3-bad4-3b163b880bc4"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "608b1b0b-7d9d-4665-bd08-eab40f9766af",
+          "DisplayValue": "Check Sim Card: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "1e525114-4e7d-4110-94d2-e75c734b2ea6",
+          "DisplayValue": "Check Sim Card Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7d4a364c-c8a9-42fe-ad53-16ace24fa1e6"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "6820896f-de20-4a90-942e-c71718fbb296",
+          "DisplayValue": "Check Sim Card: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "1e525114-4e7d-4110-94d2-e75c734b2ea6",
+          "DisplayValue": "Check Sim Card Integration"
+        }
+      ]
+    }
+  ]
+}

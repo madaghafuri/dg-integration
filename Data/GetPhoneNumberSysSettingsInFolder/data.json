@@ -1,0 +1,40 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4d2c186e-a61f-4c79-944c-27547140691f"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "dbc1e039-2810-4bd7-8b90-e5682226d1e6",
+          "DisplayValue": "Get Phone Number: URL"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6f91bb82-2539-415f-bcea-b3d01d37b08a",
+          "DisplayValue": "Get Phone Number Integration"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e8574c09-8f4c-4638-a666-1de184a4bd63"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "d7f25f09-a42e-4195-826e-bb70e86e5edb",
+          "DisplayValue": "Get Phone Number: Endpoint"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "6f91bb82-2539-415f-bcea-b3d01d37b08a",
+          "DisplayValue": "Get Phone Number Integration"
+        }
+      ]
+    }
+  ]
+}

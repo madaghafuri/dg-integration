@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "60fca646-98d8-48dc-b804-2a4069f7e445",
+    "Name": "DgIntegrationLog",
+    "ModifiedOnUtc": "\/Date(1697424302000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Integration Log (Deleted)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "http://10.89.20.164:9000/cxf/v1/ord/SubmitNewCorpCustomerOrder/",
+    "CreatedInVersion": "8.0.7.3864",
+    "Type": "Soap11"
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f895d3e-2502-456d-b5e6-13c78ebfd2ef",
+    "Name": "DgSendTo3PLService",
+    "ModifiedOnUtc": "\/Date(1727081214000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Send To 3PL Service",
+    "DependsOn": []
+  }
+}

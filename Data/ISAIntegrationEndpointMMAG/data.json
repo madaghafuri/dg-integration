@@ -1,0 +1,86 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a2aeced8-f8a4-4ec1-a5b3-8d282517f12f"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "a9b1be77-237a-4baf-a8f0-6fbdb46bdffe",
+          "DisplayValue": "MMAG: Staging"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": false
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "MMAGOrderCreate"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "rest/digi/NCCF2/stocksoutbound.asmx"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "dfbfea4e-2c03-4436-9ce8-4a21a56d016b"
+        },
+        {
+          "SchemaColumnUId": "0699d811-5c82-ff39-a7b3-1f6a9b557bc3",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "0cfeecff-d0af-a6f6-4908-310af85b7081",
+          "Value": "POST"
+        },
+        {
+          "SchemaColumnUId": "1d10da68-699f-b104-8865-67f98eec73cd",
+          "Value": "4cb879ef-2760-4f42-ace5-976ed6ec1f8d",
+          "DisplayValue": "MMAG: Production"
+        },
+        {
+          "SchemaColumnUId": "2fc1264f-70b0-ed0f-728c-a07b76d7af67",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "408c4348-54dd-32a1-d587-55b387b9b59f",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "692621a2-87da-c5d0-a433-422a027fa97e",
+          "Value": "MMAGOrderCreate"
+        },
+        {
+          "SchemaColumnUId": "9c086521-9019-8dcd-4c99-f614a53cb3ab",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "ccdc9be3-3264-898f-bf79-53966d63cd6c",
+          "Value": "rest/digi/NCCF2/stocksoutbound.asmx"
+        }
+      ]
+    }
+  ]
+}
