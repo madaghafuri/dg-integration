@@ -106,19 +106,29 @@ namespace DgIntegrationAPI.DgIntegrationWebService
 			var isERP = SysSettings.GetValue<bool>(UserConnection, "DgIs3PLWithERP", false);
             var SendToUERP = new SendToUERP(UserConnection, SubmissionId);
 			var SendToERP = new SendToERP(UserConnection, SubmissionId);
+			bool Is3PLbyRole = SysSettings.GetValue<bool>(UserConnection, "DgRelease3PLbyRole", false);
+			var roleList = GetRoles(UserConnection);
 
-			var roleList = GetFunctionalRoles(UserConnection);
-			if (roleList.Contains("Admin")) {
-				if (isERP) {
+			if (Is3PLbyRole && roleList.Contains("3PL"))
+			{
+				if (isERP)
+				{
 					return SendToERP.Process().GetAwaiter().GetResult();
 				}
-
-            	return SendToUERP.Process().GetAwaiter().GetResult();
-			} else {
-				if (roleList.Contains("ERP")) {
+				return SendToUERP.Process().GetAwaiter().GetResult();
+			} else if (Is3PLbyRole && !roleList.Contains("3PL"))
+			{
+				return new GeneralResponse()
+				{
+					Success = false,
+					Message = "Your user is not allowed to perform Release To 3PL. Please contact System Administrator for access."
+				};
+			} else
+			{
+				if (isERP)
+				{
 					return SendToERP.Process().GetAwaiter().GetResult();
 				}
-
 				return SendToUERP.Process().GetAwaiter().GetResult();
 			}
         }
