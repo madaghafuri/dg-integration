@@ -47,6 +47,8 @@ using DgMasterData;
 using LookupConst = DgMasterData.DgLookupConst;
 using ISAHttpRequest.ISAHttpRequest;
 using Newtonsoft.Json;
+using DgCRMIntegration.DgGetSignedContract.Response;
+using DgCRMIntegration.DgGetSignedContract;
 
 namespace DgCRMIntegration
 {
@@ -914,6 +916,41 @@ namespace DgCRMIntegration
 
             return service.GetResult();
 		} 
+
+        public async Task<List<SignedContractValue>> GetSignedContractBySubscriber(string SubscriberId)
+        {
+            if(string.IsNullOrEmpty(SubscriberId)) {
+                throw new Exception("MSISDN cannot be null or empty");
+            }
+
+			var service = new GetSignedContractService(UserConnection);
+            try {
+                await service.SetParam(SubscriberId).Request();
+                if(!service.IsSuccessResponse()) {
+                    string error = service.GetErrorResponse();
+                    if(!string.IsNullOrEmpty(error)) {
+                        throw new Exception(error);
+                    }
+
+                    return null;
+                }   
+            } catch (Exception) {
+                throw;
+            } finally {
+                if(this.isACDCLog) {
+                    LogHelper.LogACDCTracking(
+                        UserConnection: UserConnection, 
+                        Log: service.GetLog(),
+                        TransactionType: this.transactionType,
+                        MSISDN: string.Empty,
+                        Remarks: service.GetErrorResponse(),
+                        ResultOperationReply: service.GetOperationReply()
+                    );
+                }
+            }
+
+            return service.GetResult();
+        }
 			
 		#endregion
 			
