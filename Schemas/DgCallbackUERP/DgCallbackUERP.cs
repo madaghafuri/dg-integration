@@ -29,7 +29,6 @@ using ISAEntityHelper.EntityHelper;
 using ISAIntegrationSetup;
 using SysSettings = Terrasoft.Core.Configuration.SysSettings;
 using DgIntegration.DgAuto3PLProcess;
-using DgIntegration.DgAuto3PLProcessDMS;
 
 namespace DgIntegration.DgCreateCustomerSalesOrderResponse
 {

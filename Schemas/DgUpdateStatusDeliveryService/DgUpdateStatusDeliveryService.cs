@@ -34,6 +34,7 @@ using ISAEntityHelper.EntityHelper;
 using LookupConst = DgMasterData.DgLookupConst;
 using RequestModel = DgIntegration.DgUpdateStatusDelivery.Request;
 using ResponseModel = DgIntegration.DgUpdateStatusDelivery.Response;
+using Org.BouncyCastle.Crypto.Operators;
 
 namespace DgIntegration.DgUpdateStatusDelivery
 {
@@ -164,7 +165,8 @@ namespace DgIntegration.DgUpdateStatusDelivery
             var select = new Select(UserConnection)
                 .Column(Func.Count("Id")).As("Total")
             .From("DgLineDetail")
-            .Where("DgLineDetail", "DgSOID").IsEqual(Column.Parameter(SONumber)) as Select;
+            // Use SAP SO Number instead of NCCF SO Number
+            .Where("DgLineDetail", "DgSalesOrderId").IsEqual(Column.Parameter(SONumber)) as Select;
 
             using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())  {
                 using (IDataReader dataReader = select.ExecuteReader(dbExecutor)) {
@@ -196,7 +198,8 @@ namespace DgIntegration.DgUpdateStatusDelivery
             
             columns.Add("DeliveryStatusCode", esq.AddColumn("DgDeliveryStatus.DgCode"));
 			
-            esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "DgSOID", SONumber));
+            // Use SAP SO Number instead of NCCF SO Number
+            esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "DgSalesOrderId", SONumber));
             
             var entity = esq.GetEntityCollection(UserConnection).FirstOrDefault();
 
@@ -224,9 +227,9 @@ namespace DgIntegration.DgUpdateStatusDelivery
                 }
             }
 
+            var simPackage = Terrasoft.Core.Configuration.SysSettings.GetValue<string>(UserConnection, "DgSIMPackageCode", "20020010");
             foreach (var data in Data)
             {
-                var prefixItemCode = data.ItemCode.Substring(0, data.ItemCode.IndexOf('_'));
                 var statementQuery = new List<string>
                 {
                     $"DgPreDeliveryDate = '{DateTime.Now}'",
@@ -234,15 +237,28 @@ namespace DgIntegration.DgUpdateStatusDelivery
                     $"DgDeliveryStatusId = '{DeliveryStatusId}'"
                 };
 
-                if (prefixItemCode == "HST" && !string.IsNullOrEmpty(data.IMEINumber))
-                {
-                    statementQuery.Add($"DgDeviceIMEI = '{data.IMEINumber}'");
-                }
+                if (data.ItemCode.IndexOf('_') == -1) {
+                    if (data.ItemCode == simPackage && !string.IsNullOrEmpty(data.SerialNumber))
+                    {
+                        statementQuery.Add($"DgSIMCardNumber = '{data.SerialNumber}'");
+                    } else if (data.ItemCode != simPackage && !string.IsNullOrEmpty(data.IMEINumber))
+                    {
+                        statementQuery.Add($"DgDeviceIMEI = '{data.IMEINumber}'");
+                    }
+                } else {
+                    var prefixItemCode = data.ItemCode.Substring(0, data.ItemCode.IndexOf('_'));
 
-                if (prefixItemCode == "USI" && !string.IsNullOrEmpty(data.SerialNumber))
-                {
-                    statementQuery.Add($"DgSIMCardNumber = '{data.SerialNumber}'");
+                    if (prefixItemCode == "HST" && !string.IsNullOrEmpty(data.IMEINumber))
+                    {
+                        statementQuery.Add($"DgDeviceIMEI = '{data.IMEINumber}'");
+                    }
+
+                    if (prefixItemCode == "USI" && !string.IsNullOrEmpty(data.SerialNumber))
+                    {
+                        statementQuery.Add($"DgSIMCardNumber = '{data.SerialNumber}'");
+                    }
                 }
+                
 
                 var parsedLineDetailIdList = lineDetailIdList.Select(item => $"'{item}'").ToList();
                 var updateQuery = $@"
@@ -257,23 +273,35 @@ namespace DgIntegration.DgUpdateStatusDelivery
         
 		protected void UpdateStatusLineDetail(RequestModel.DeliveryItem Data, string DONo, Guid DeliveryStatusId)
         {
-            string prefixItemCode = Data.ItemCode.Substring(0, Data.ItemCode.IndexOf('_'));
-
             var update = new Update(UserConnection, "DgLineDetail")
                 .Set("DgPreDeliveryDate", Column.Parameter(DateTime.Now))
                 .Set("DgSODoID", Column.Parameter(DONo))
                 .Set("DgMesadRemarks", Column.Parameter(Data.Remarks))
                 .Set("DgDeliveryStatusId", Column.Parameter(DeliveryStatusId));
+            if (Data.ItemCode.IndexOf('_') == -1) {
+                var simPackageCode = Terrasoft.Core.Configuration.SysSettings.GetValue<string>(UserConnection, "DgSIMPackageCode", "20020010");
 
-            if (prefixItemCode == "HST" && !string.IsNullOrEmpty(Data.IMEINumber))
-            {
-                update.Set("DgDeviceIMEI", Column.Parameter(Data.IMEINumber));
-            }
+                if (Data.ItemCode == simPackageCode && !string.IsNullOrEmpty(Data.SerialNumber))
+                {
+                    update.Set("DgSIMCardNumber", Column.Parameter(Data.SerialNumber));
+                } else if (Data.ItemCode != simPackageCode && !string.IsNullOrEmpty(Data.IMEINumber)){
+                    update.Set("DgDeviceIMEI", Column.Parameter(Data.IMEINumber));
+                }
 
-            if (prefixItemCode == "USI" && !string.IsNullOrEmpty(Data.SerialNumber))
-            {
-                update.Set("DgSIMCardNumber", Column.Parameter(Data.SerialNumber));
+            } else {
+                string prefixItemCode = Data.ItemCode.Substring(0, Data.ItemCode.IndexOf('_'));
+
+                if (prefixItemCode == "HST" && !string.IsNullOrEmpty(Data.IMEINumber))
+                {
+                    update.Set("DgDeviceIMEI", Column.Parameter(Data.IMEINumber));
+                }
+
+                if (prefixItemCode == "USI" && !string.IsNullOrEmpty(Data.SerialNumber))
+                {
+                    update.Set("DgSIMCardNumber", Column.Parameter(Data.SerialNumber));
+                }
             }
+            
 
             update
                 .Where("DgLineId").IsEqual(Column.Parameter(Data.NCCFLineID))
@@ -380,7 +408,7 @@ namespace DgIntegration.DgUpdateStatusDelivery
                 filterLineId.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "DgLineId", lineId));
             }
             esq.Filters.Add(filterLineId);
-            esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "DgSOID", SONumber));
+            esq.Filters.Add(esq.CreateFilterWithParameters(FilterComparisonType.Equal, "DgSalesOrderId", SONumber));
 
             var entities = esq.GetEntityCollection(UserConnection);
             foreach(var entity in entities) {

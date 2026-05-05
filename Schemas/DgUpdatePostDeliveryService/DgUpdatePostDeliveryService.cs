@@ -118,7 +118,7 @@ namespace DgIntegration.DgUpdatePostDelivery
             var select = new Select(UserConnection)
                 .Column(Func.Count("Id")).As("Total")
             .From("DgLineDetail")
-            .Where("DgLineDetail", "DgSOID").IsEqual(Column.Parameter(SONumber)) as Select;
+            .Where("DgLineDetail", "DgSalesOrderId").IsEqual(Column.Parameter(SONumber)) as Select;
 
             using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())  {
                 using (IDataReader dataReader = select.ExecuteReader(dbExecutor)) {
@@ -159,7 +159,7 @@ namespace DgIntegration.DgUpdatePostDelivery
                 .Set("DgDeliveryStatusId", Column.Parameter(DeliveryStatusId))
                 .Set("DgDeviceOrderRemark", Column.Parameter(statusRemarks))
                 .Set("DgDeliveryAttempt", Column.Parameter(deliveryAttempt))
-            .Where("DgSOID").IsEqual(Column.Parameter(OrderId))
+            .Where("DgSalesOrderId").IsEqual(Column.Parameter(OrderId))
             .Execute();
         }
 

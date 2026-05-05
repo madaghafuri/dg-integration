@@ -274,8 +274,7 @@ namespace DgIntegration.DgCreateCustomerSalesOrderUERPService
             columns.Add("sfaLeadsId", esq.AddColumn("DgSFALead"));
             columns.Add("OrderIMSIType", esq.AddColumn("DgOrderIMSIType.Name"));
 
-            for (int i = 1; i <= 20; i++)
-            {
+            for (int i = 1; i <= 20; i++) {
                 columns.Add($"SuppOffer{i}", esq.AddColumn($"DgSuppOffer{i}.DgOfferName"));
             }
 
@@ -325,9 +324,9 @@ namespace DgIntegration.DgCreateCustomerSalesOrderUERPService
                 OrigSysDocumentRef = this.soNumber,
                 Address1 = firstItem.GetTypedColumnValue<string>(columns["ShipAddress"].Name).Replace("\r\n", " ").Replace("\n", " "),
                 CustomerNamePhonetic = firstItem.GetTypedColumnValue<string>(columns["CustomerNamePhonetic"].Name),
-                TIN = firstItem.GetTypedColumnValue<string>(columns["TINNumber"].Name),
+				TIN = firstItem.GetTypedColumnValue<string>(columns["TINNumber"].Name),
 				Email = firstItem.GetTypedColumnValue<string>(columns["Email"].Name),
-                SST = firstItem.GetTypedColumnValue<string>(columns["SST"].Name),
+				SST = firstItem.GetTypedColumnValue<string>(columns["SST"].Name),
 				BRN = firstItem.GetTypedColumnValue<string>(columns["CustomerNumber"].Name),
                 OrderedDate = OrderedDate.ToString("yyyy-MM-ddTHH:mm:ss"),
                 OrderType = "Corp Channel (CEN)",

@@ -39,14 +39,12 @@ using DgIntegration.DgCheckTransactionStatusService;
 using DgSubmission.DgHistorySubmissionService;
 using SolarisCore;
 using DgBaseService.DgHelpers;
-using ISAIntegrationSetup;
 
 namespace DgIntegration.DgCheckCustomerEligibility
 {
     public class CustomerEligibilityService
     {
         private UserConnection userConnection;
-        private IntegrationLogService isaIntegrationLogService;
         protected UserConnection UserConnection
         {
             get
@@ -66,29 +64,14 @@ namespace DgIntegration.DgCheckCustomerEligibility
             var log = new SolarLog(UserConnection, "CUSTOMER ELIGIBILITY CHECK", SolarLog.OUTGOING);
             var dbExecutor = UserConnection.EnsureDBConnection();
             var submissionId = Guid.Parse(customerEligibilityRequest.SubmissionId);
+            var token = SysSettings.GetValue<string>(UserConnection, "DgCustomerEligibilityToken", "");
+            var endpoint = SysSettings.GetValue<string>(UserConnection, "DgCustomerEligibilityURL", "");
+            string url = $"{endpoint}?OrderType={customerEligibilityRequest.OrderType}&IdType={customerEligibilityRequest.IdType}&IdNumber={customerEligibilityRequest.IdNumber}&Nationality={customerEligibilityRequest.Nationality}&SubscriberType={customerEligibilityRequest.SubscriberType}&TelecomType={customerEligibilityRequest.TelecomType}&PayType={customerEligibilityRequest.PayType}&DateOfBirth={customerEligibilityRequest.DateOfBirth}&MSISDN={customerEligibilityRequest.MSISDN}";
+            IntegrationLogService ISAintegrationLogService = new IntegrationLogService("CUSTOMER ELIGIBILITY CHECK", url, endpoint, userConnection: UserConnection);
+            ISAintegrationLogService.AddStartDate();
+            ISAintegrationLogService.AddMethod(HttpMethod.Post);
             try
             {
-                var setup = GetSetup();
-                var url = $"{setup.BaseUrl}/{setup.EndpointUrl}?OrderType=12&IdType={customerEligibilityRequest.IdType}&IdNumber={customerEligibilityRequest.IdNumber}&Nationality={customerEligibilityRequest.Nationality}&SubscriberType={customerEligibilityRequest.SubscriberType}&TelecomType={customerEligibilityRequest.TelecomType}&PayType={customerEligibilityRequest.PayType}&DateOfBirth={customerEligibilityRequest.DateOfBirth}&MSISDN={customerEligibilityRequest.MSISDN}";
-                var auth = SolarRest.GenerateBasicAuth(setup.Authentication.Basic.Username, setup.Authentication.Basic.Password);
-
-                this.isaIntegrationLogService = new IntegrationLogService("CUSTOMER ELIGIBILITY CHECK", setup.BaseUrl, setup.EndpointUrl, userConnection: UserConnection, section: "Submission", recordId: submissionId);
-                var queryString = new Dictionary<string, string> {
-                    {"OrderType", "12"},
-                    {"IdType", customerEligibilityRequest.IdType},
-                    {"IdNumber", customerEligibilityRequest.IdNumber},
-                    {"Nationality", customerEligibilityRequest.Nationality},
-                    {"SubscriberType", customerEligibilityRequest.SubscriberType},
-                    {"TelecomType", customerEligibilityRequest.TelecomType},
-                    {"PayType", customerEligibilityRequest.PayType},
-                    {"DateOfBirth", customerEligibilityRequest.DateOfBirth},
-                    {"MSISDN", customerEligibilityRequest.MSISDN}                                                               
-                };
-                log.AddQueryParameter(queryString);
-                this.isaIntegrationLogService.AddQueryStringsRequest(queryString);
-                this.isaIntegrationLogService.AddStartDate();
-                this.isaIntegrationLogService.AddMethod(HttpMethod.Get);
-
                 dbExecutor.StartTransaction();
                 var result = String.Empty;
                 var responseMessage = new HttpResponseMessage();
@@ -96,29 +79,27 @@ namespace DgIntegration.DgCheckCustomerEligibility
                 using (HttpClient client = new HttpClient())
                 {
                     HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, url);
-                    requestMessage.Headers.Add("Authorization", auth);
+                    requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Basic", token);
                     requestMessage.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                     requestMessage.Headers.Add("ReferenceID", Helper.GenerateReferenceId());
                     requestMessage.Headers.Add("SourceSystemID", "NCCF");
                     requestMessage.Headers.Add("ChannelMedia", "NCCF2.0");
 
                     var headersDictionary = requestMessage.Headers.ToDictionary(h => h.Key, h => string.Join(", ", h.Value));
-                    this.isaIntegrationLogService.AddHeadersRequest(headersDictionary);
+                    ISAintegrationLogService.AddHeadersRequest(headersDictionary);
 
                     var queryStrings = requestMessage.RequestUri.Query.TrimStart('?')
                                           .Split('&')
                                           .Select(q => q.Split('='))
                                           .ToDictionary(k => k[0], v => v.Length > 1 ? v[1] : string.Empty);
-                    this.isaIntegrationLogService.AddQueryStringsRequest(queryStrings);
+                    ISAintegrationLogService.AddQueryStringsRequest(queryStrings);
 
-                    log.Start = DateTime.Now;
-                    await log.AddOutgoingRequest(setup.BaseUrl, requestMessage);
+                    await log.AddOutgoingRequest(url, requestMessage);
                     responseMessage = await client.SendAsync(requestMessage);
                     await log.AddOutgoingResponse(responseMessage);
-                    this.isaIntegrationLogService.AddHeadersResponse(responseMessage.Headers.ToDictionary(h => h.Key, h => string.Join(", ", h.Value)));
+                    ISAintegrationLogService.AddHeadersResponse(responseMessage.Headers.ToDictionary(h => h.Key, h => string.Join(", ", h.Value)));
                     responseMessage.EnsureSuccessStatusCode();
                     result = await responseMessage.Content.ReadAsStringAsync();
-                    log.End = DateTime.Now;
 
                     if (result != null)
                     {
@@ -126,15 +107,18 @@ namespace DgIntegration.DgCheckCustomerEligibility
                         response.Message = "";
                         var headers = JsonConvert.SerializeObject(responseMessage.Headers.ToDictionary(h => h.Key, h => h.Value.ToList().FirstOrDefault()));
                         response.Data = JsonConvert.DeserializeObject<CustomerEligibilityResponseHeaders>(headers);
-                        this.isaIntegrationLogService.AddBodyResponse(result);
-                        this.isaIntegrationLogService.AddStatusCodeResponse((int)responseMessage.StatusCode);
+                        ISAintegrationLogService.AddBodyResponse(result);
+                        ISAintegrationLogService.AddStatusCodeResponse((int)responseMessage.StatusCode);
 
                         var customerBody = JsonConvert.DeserializeObject<CustomerEligibilityBody>(result);
                         response.CustomerEligibilityBody = customerBody;
 
                         log.Message = response.Message;
 
-                        
+                        if (string.IsNullOrEmpty(customerEligibilityRequest.SubmissionId) || !Guid.TryParse(customerEligibilityRequest.SubmissionId, out var parsedSubmissionId) || parsedSubmissionId == Guid.Empty)
+                        {
+                            throw new Exception("SubmissionID is null, empty, invalid, or an empty GUID.");
+                        }
                         var message = response.Data.ErrorCode == string.Empty ? "Validated" : $"{response.Data.ErrorDescription} {response.Data.MoreInfo}";
                         var submissionData = GetSubmissionData(submissionId);
                         if (submissionData == null || submissionData.Count == 0)
@@ -143,7 +127,6 @@ namespace DgIntegration.DgCheckCustomerEligibility
                         }
                         var userId = UserConnection.CurrentUser.ContactId;
                         var historyMessage = $"[Customer Eligibility Check] Submission {submissionData["DgName"]}, {message} ";
-                        log.AddSection("Submission", customerEligibilityRequest.SubmissionId);
                         InsertSubmissionHistory(submissionId, userId, historyMessage, customerEligibilityRequest.MSISDN);
                         InsertIntegrationLog(historyMessage, response.Data.ErrorCode == string.Empty, submissionId);
                     }
@@ -162,10 +145,10 @@ namespace DgIntegration.DgCheckCustomerEligibility
             }
             log.Save();
             dbExecutor.CommitTransaction();
-            this.isaIntegrationLogService?.AddMessage(response.Message);
-            this.isaIntegrationLogService?.AddStatusResponse(response.Status);
-            this.isaIntegrationLogService?.AddEndDate();
-            this.isaIntegrationLogService?.Save();
+            ISAintegrationLogService.AddMessage(response.Message);
+            ISAintegrationLogService.AddStatusResponse(response.Status);
+            ISAintegrationLogService.AddEndDate();
+            ISAintegrationLogService.Save();
             return response;
         }
 
@@ -219,15 +202,6 @@ namespace DgIntegration.DgCheckCustomerEligibility
             }
 
             return data;
-        }
-
-        private Setup GetSetup() {
-            var setup = IntegrationSetup.Get(userConnection, "CSG", "CheckCustomerEligibility");
-            if (setup == null) {
-                throw new Exception("Integration endpoint for CheckCustomerEligibility not found");
-            }
-
-            return setup;
         }
     }
 
@@ -329,7 +303,7 @@ namespace DgIntegration.DgCheckCustomerEligibility
     }
 
     [ServiceContract]
-    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
+    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class CustomerEligibilityWebService : BaseService
     {
         private readonly CustomerEligibilityService _service;
@@ -345,7 +319,7 @@ namespace DgIntegration.DgCheckCustomerEligibility
                RequestFormat = WebMessageFormat.Json,
                ResponseFormat = WebMessageFormat.Json,
                BodyStyle = WebMessageBodyStyle.Bare)]
-        public CustomResponse CheckCustomerEligibility(CustomerEligibilityRequest request)
+        public async Task<CustomResponse> CheckCustomerEligibility(CustomerEligibilityRequest request)
         {
             var checkEligibility = SysSettings.GetValue<bool>(UserConnection, "DgCustomerEligibilityCheck", false);
 
@@ -356,7 +330,7 @@ namespace DgIntegration.DgCheckCustomerEligibility
                 };
             }
 
-            return _service.CheckCustomerEligibility(request).GetAwaiter().GetResult();
+            return await _service.CheckCustomerEligibility(request);
         }
     }
 

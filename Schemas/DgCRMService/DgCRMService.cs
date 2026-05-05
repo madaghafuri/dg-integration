@@ -569,7 +569,7 @@ namespace DgCRMIntegration
                 }
 
                 customerInfo.customerFlag = "0";
-                
+                customerInfo.customerGroup = "1"; // GETSUBMISSIONBYLINEID > customer_group
                 customerInfo.firstName = Line.CustomerName;
                 customerInfo.idType = Line.IDType?.Code;
                 customerInfo.idNumber = Line.IDNo;
@@ -608,11 +608,6 @@ namespace DgCRMIntegration
                 customerInfo.customerId = Line.CustomerID;
                 subscriberInfo.customerId = Line.CustomerID;
             }
-
-            // CI => "5" => "0", Corporate => "6" => "1"
-            customerInfo.customerGroup = Line.SubscriberType?.Code == "5"
-                ? "0"
-                : "1";
 
             var accountInfo = new AccountValue();
             accountInfo.accountName = Line.CustomerName;
@@ -921,8 +916,6 @@ namespace DgCRMIntegration
 
             return service.GetResult();
 		} 
-			
-		#endregion
 
         public async Task<List<SignedContractValue>> GetSignedContractBySubscriber(string SubscriberId)
         {
@@ -958,6 +951,8 @@ namespace DgCRMIntegration
 
             return service.GetResult();
         }
+			
+		#endregion
 			
 		#region GetUsingOffers
 		

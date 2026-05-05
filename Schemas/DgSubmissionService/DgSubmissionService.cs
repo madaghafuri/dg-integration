@@ -1573,6 +1573,11 @@ namespace DgSubmission.DgSubmissionService
                     suppOffer.Add(line.Element3_2);
                     suppOffer.Add(line.Element3_3);
 
+                    if (submission.SubmissionType == "COP")
+                    {
+                        suppOffer.Add("Vo-LTE");
+                    }
+
                     int suppIndex = 1;
                     foreach (var item in suppOffer)
                     {
@@ -1596,6 +1601,14 @@ namespace DgSubmission.DgSubmissionService
                         suppIndex++;
                     }
 					*/
+
+                    if (submission.SubmissionType == "COP")
+                    {
+                        line.SuppOffers.Add(new SuppOffer
+                        {
+                            OfferName = "Vo-LTE"
+                        });
+                    }
 
                     int suppOfferCount = line.SuppOffers.Count;
                     for (int i = 0; i < 20; i++)

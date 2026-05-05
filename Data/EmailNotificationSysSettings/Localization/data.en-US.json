@@ -43,6 +43,25 @@
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "ColumnName": "Id",
+          "Value": "5bfc8864-211f-4c2c-911f-679f0e4ea1b1"
+        },
+        {
+          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+          "ColumnName": "Name",
+          "Value": "Email Notification: Create Sales Order Failed"
+        },
+        {
+          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+          "ColumnName": "Description",
+          "Value": "use \";\" or \",\" for multiple email example: test@email.com, test@email.com test@email.com; test@email.com\t"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
           "Value": "6aeebb4a-9b5b-4ca6-9c9e-7b3bb4f7a68d"
         },
         {

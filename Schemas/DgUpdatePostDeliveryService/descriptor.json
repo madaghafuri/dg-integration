@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "07deab56-0bb9-4a9c-91c7-d40d7c180415",
     "Name": "DgUpdatePostDeliveryService",
-    "ModifiedOnUtc": "\/Date(1721290543000)\/",
+    "ModifiedOnUtc": "\/Date(1761114682000)\/",
     "ManagerName": "SourceCodeSchemaManager",
-    "Caption": "Callback MMAG: Update Post Delivery Service",
-    "DependsOn": []
+    "Caption": "Callback MMAG: Update Post Delivery Service"
   }
 }
